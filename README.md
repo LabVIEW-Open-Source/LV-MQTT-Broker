@@ -2,7 +2,10 @@
 Native LabVIEW MQTT Broker Server
 
 This project is an implementation of the MQTT 3.1.1 Oasis Standard as defined here:
-http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html
+
+>[mqtt-v3.1.1]
+>
+>MQTT Version 3.1.1. Edited by Andrew Banks and Rahul Gupta. 29 October 2014. OASIS Standard. http://docs.oasis->open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html. Latest version: http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/mqtt->v3.1.1.html.
 
 It is an all-LabVIEW MQTT broker. There are client projects out there and at this time, no MQTT client development is being considered. As of now, please ignore all issues that are specific to Client implementation. All normative requirements are being listed in this project as issues to solve in order to have a fully compliant MQTT broker.
 
