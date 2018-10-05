@@ -22,15 +22,28 @@
 			<Item Name="TBD_Extract Packet Identifier.vi" Type="VI" URL="../TBD_Extract Packet Identifier.vi"/>
 			<Item Name="Encode Remaining Length.vi" Type="VI" URL="../Encode Remaining Length.vi"/>
 			<Item Name="Decode Remaining Length.vi" Type="VI" URL="../Decode Remaining Length.vi"/>
+			<Item Name="Requirement -- enum.ctl" Type="VI" URL="../Requirement -- enum.ctl"/>
 			<Item Name="Control Packet Type -- enum.ctl" Type="VI" URL="../Control Packet Type -- enum.ctl"/>
 			<Item Name="QualityOfService -- enum.ctl" Type="VI" URL="../QualityOfService -- enum.ctl"/>
 			<Item Name="ControlPacket.lvclass" Type="LVClass" URL="../Control Packets/ControlPacket/ControlPacket.lvclass"/>
 			<Item Name="CONNECT.lvclass" Type="LVClass" URL="../Control Packets/CONNECT/CONNECT.lvclass"/>
-			<Item Name="PUBACK.lvclass" Type="LVClass" URL="../Control Packets/PUBACK/PUBACK.lvclass"/>
+			<Item Name="CONNACK.lvclass" Type="LVClass" URL="../Control Packets/CONNACK/CONNACK.lvclass"/>
 			<Item Name="PUBLISH.lvclass" Type="LVClass" URL="../Control Packets/PUBLISH/PUBLISH.lvclass"/>
+			<Item Name="PUBACK.lvclass" Type="LVClass" URL="../Control Packets/PUBACK/PUBACK.lvclass"/>
+			<Item Name="PUBREC.lvclass" Type="LVClass" URL="../Control Packets/PUBREC/PUBREC.lvclass"/>
+			<Item Name="PUBREL.lvclass" Type="LVClass" URL="../Control Packets/PUBREL/PUBREL.lvclass"/>
+			<Item Name="PUBCOMP.lvclass" Type="LVClass" URL="../Control Packets/PUBCOMP/PUBCOMP.lvclass"/>
+			<Item Name="SUBSCRIBE.lvclass" Type="LVClass" URL="../Control Packets/SUBSCRIBE/SUBSCRIBE.lvclass"/>
+			<Item Name="SUBACK.lvclass" Type="LVClass" URL="../Control Packets/SUBACK/SUBACK.lvclass"/>
+			<Item Name="UNSUBSCRIBE.lvclass" Type="LVClass" URL="../Control Packets/UNSUBSCRIBE/UNSUBSCRIBE.lvclass"/>
+			<Item Name="UNSUBACK.lvclass" Type="LVClass" URL="../Control Packets/UNSUBACK/UNSUBACK.lvclass"/>
+			<Item Name="PINGREC.lvclass" Type="LVClass" URL="../Control Packets/PINGREC/PINGREC.lvclass"/>
+			<Item Name="PINGRESP.lvclass" Type="LVClass" URL="../Control Packets/PINGRESP/PINGRESP.lvclass"/>
+			<Item Name="DISCONNECT.lvclass" Type="LVClass" URL="../Control Packets/DISCONNECT/DISCONNECT.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test Factory.vi" Type="VI" URL="../Unit Tests/Test Factory.vi"/>
+			<Item Name="Test Packet Identifier.vi" Type="VI" URL="../Unit Tests/Test Packet Identifier.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
