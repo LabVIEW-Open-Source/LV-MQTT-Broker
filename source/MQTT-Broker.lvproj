@@ -14,7 +14,6 @@
 		<Item Name="MQTT Control Packet" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Format Fixed Header.vi" Type="VI" URL="../Format Fixed Header.vi"/>
-			<Item Name="Validate Fixed Header.vi" Type="VI" URL="../Validate Fixed Header.vi"/>
 			<Item Name="Format Control Packet.vi" Type="VI" URL="../Format Control Packet.vi"/>
 			<Item Name="Validate Control Packet.vi" Type="VI" URL="../Validate Control Packet.vi"/>
 			<Item Name="ComputeFlagBits.vi" Type="VI" URL="../ComputeFlagBits.vi"/>
@@ -49,6 +48,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
+			<Item Name="Validate Fixed Header.vi" Type="VI" URL="../Validate Fixed Header.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
