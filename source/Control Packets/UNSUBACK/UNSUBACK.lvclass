@@ -21,6 +21,15 @@
 	<Item Name="UNSUBACK.ctl" Type="Class Private Data" URL="UNSUBACK.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Create UNSUBACK Packet.vi" Type="VI" URL="../Create UNSUBACK Packet.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%L!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%&amp;6/5V6#15.,,GRW9WRB=X-!!!R64F.61E&amp;$3S"P&gt;81!!#B!=!!?!!!3%&amp;6/5V6#15.,,GRW9WRB=X-!!!N64F.61E&amp;$3S"J&lt;A!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!^!"A!*5'&amp;D;W6U)%F%!'%!]!!-!!-!"!!%!!5!"!!'!!1!"!!(!!A!"!!%!Q!!?!!!$1A!!!!!!!!!!!!!$15!!!!!!!!+!!!!!!!!!!!!!!!+!!!!#!!!!!!!!!!!!!!.!!!!"A!!!!!!!!!!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
 	<Item Name="hasPacketIdentifier.vi" Type="VI" URL="../hasPacketIdentifier.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$-!!!!"1!%!!!!'E!B&amp;%&amp;T)&amp;"B9WNF&gt;#"*:'6O&gt;'FG;76S!!!K1(!!(A!!%B"64F.61E&amp;$3SZM&gt;G.M98.T!!!-65Z465*"1UMA&lt;X6U!!!I1(!!(A!!%B"64F.61E&amp;$3SZM&gt;G.M98.T!!!,65Z465*"1UMA;7Y!6!$Q!!Q!!!!!!!%!!A!!!!!!!!!!!!!!!!!!!!-#!!"Y!!!!!!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*!!!!!!!1!%!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

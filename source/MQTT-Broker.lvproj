@@ -15,10 +15,8 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Format Fixed Header.vi" Type="VI" URL="../Format Fixed Header.vi"/>
 			<Item Name="Format Control Packet.vi" Type="VI" URL="../Format Control Packet.vi"/>
-			<Item Name="Validate Control Packet.vi" Type="VI" URL="../Validate Control Packet.vi"/>
 			<Item Name="ComputeFlagBits.vi" Type="VI" URL="../ComputeFlagBits.vi"/>
 			<Item Name="ExtractFlagBits.vi" Type="VI" URL="../ExtractFlagBits.vi"/>
-			<Item Name="TBD_Extract Packet Identifier.vi" Type="VI" URL="../TBD_Extract Packet Identifier.vi"/>
 			<Item Name="ControlPacket.lvclass" Type="LVClass" URL="../Control Packets/ControlPacket/ControlPacket.lvclass"/>
 			<Item Name="CONNECT.lvclass" Type="LVClass" URL="../Control Packets/CONNECT/CONNECT.lvclass"/>
 			<Item Name="CONNACK.lvclass" Type="LVClass" URL="../Control Packets/CONNACK/CONNACK.lvclass"/>
@@ -36,6 +34,7 @@
 			<Item Name="DISCONNECT.lvclass" Type="LVClass" URL="../Control Packets/DISCONNECT/DISCONNECT.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="Test CONNACK packet.vi" Type="VI" URL="../Unit Tests/Test CONNACK packet.vi"/>
 			<Item Name="Test CONNECT packet.vi" Type="VI" URL="../Unit Tests/Test CONNECT packet.vi"/>
 			<Item Name="Test Factory.vi" Type="VI" URL="../Unit Tests/Test Factory.vi"/>
 			<Item Name="Test Packet Identifier.vi" Type="VI" URL="../Unit Tests/Test Packet Identifier.vi"/>

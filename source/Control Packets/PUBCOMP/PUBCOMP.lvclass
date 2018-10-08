@@ -21,6 +21,15 @@
 	<Item Name="PUBCOMP.ctl" Type="Class Private Data" URL="PUBCOMP.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Create PUBCOMP Packet.vi" Type="VI" URL="../Create PUBCOMP Packet.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%7!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!2$V"61E.046!O&lt;(:D&lt;'&amp;T=Q!,5&amp;6#1U^.5#"P&gt;81!*E"Q!"Y!!"%05&amp;6#1U^.5#ZM&gt;G.M98.T!!J165*$4UV1)'FO!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!'%!]!!-!!-!"!!%!!5!"!!'!!1!"!!(!!1!"!!%!Q!!?!!!$1A!!!!!!!!!!!!!$15!!!!!!!!+!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!.!!!!"A!!!!!!!!!!!!!"!!A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107825168</Property>
+	</Item>
 	<Item Name="hasPacketIdentifier.vi" Type="VI" URL="../hasPacketIdentifier.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$'!!!!"1!%!!!!'E!B&amp;%&amp;T)&amp;"B9WNF&gt;#"*:'6O&gt;'FG;76S!!!G1(!!(A!!%1^165*$4UV1,GRW9WRB=X-!#V"61E.046!A&lt;X6U!#:!=!!?!!!2$V"61E.046!O&lt;(:D&lt;'&amp;T=Q!+5&amp;6#1U^.5#"J&lt;A!!6!$Q!!Q!!!!!!!%!!A!!!!!!!!!!!!!!!!!!!!-#!!"Y!!!!!!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*!!!!!!!1!%!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

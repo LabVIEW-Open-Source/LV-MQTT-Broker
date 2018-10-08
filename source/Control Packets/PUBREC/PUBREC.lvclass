@@ -21,6 +21,15 @@
 	<Item Name="PUBREC.ctl" Type="Class Private Data" URL="PUBREC.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Create PUBREC Packet.vi" Type="VI" URL="../Create PUBREC Packet.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%D!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!1$F"61F*&amp;1SZM&gt;G.M98.T!!!+5&amp;6#5E6$)'^V&gt;!!!*%"Q!"Y!!"!/5&amp;6#5E6$,GRW9WRB=X-!!!F165*325-A;7Y!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!01!9!#6"B9WNF&gt;#"*2!"B!0!!$!!$!!1!"!!&amp;!!1!"A!%!!1!"Q!)!!1!"!-!!(A!!!U)!!!!!!!!!!!!!!U&amp;!!!!!!!!#A!!!!!!!!!!!!!!#A!!!!A!!!!!!!!!!!!!$1!!!!9!!!!!!!!!!!!!!1!*!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107825168</Property>
+	</Item>
 	<Item Name="hasPacketIdentifier.vi" Type="VI" URL="../hasPacketIdentifier.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$%!!!!"1!%!!!!'E!B&amp;%&amp;T)&amp;"B9WNF&gt;#"*:'6O&gt;'FG;76S!!!G1(!!(A!!%!Z165*325-O&lt;(:D&lt;'&amp;T=Q!!#F"61F*&amp;1S"P&gt;81!!#2!=!!?!!!1$F"61F*&amp;1SZM&gt;G.M98.T!!!*5&amp;6#5E6$)'FO!&amp;1!]!!-!!!!!!!"!!)!!!!!!!!!!!!!!!!!!!!$!A!!?!!!!!!!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#1!!!!!!%!"!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
