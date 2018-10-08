@@ -34,8 +34,10 @@
 			<Item Name="DISCONNECT.lvclass" Type="LVClass" URL="../Control Packets/DISCONNECT/DISCONNECT.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="Test CONNACK packet.vi" Type="VI" URL="../Unit Tests/Test CONNACK packet.vi"/>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Test CONNECT packet.vi" Type="VI" URL="../Unit Tests/Test CONNECT packet.vi"/>
+			<Item Name="Test CONNACK packet.vi" Type="VI" URL="../Unit Tests/Test CONNACK packet.vi"/>
+			<Item Name="Test PUBLISH packet.vi" Type="VI" URL="../Unit Tests/Test PUBLISH packet.vi"/>
 			<Item Name="Test Factory.vi" Type="VI" URL="../Unit Tests/Test Factory.vi"/>
 			<Item Name="Test Packet Identifier.vi" Type="VI" URL="../Unit Tests/Test Packet Identifier.vi"/>
 		</Item>
