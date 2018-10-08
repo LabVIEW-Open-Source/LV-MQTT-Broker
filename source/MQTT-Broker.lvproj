@@ -22,11 +22,11 @@
 			<Item Name="ControlPacket.lvclass" Type="LVClass" URL="../Control Packets/ControlPacket/ControlPacket.lvclass"/>
 			<Item Name="CONNECT.lvclass" Type="LVClass" URL="../Control Packets/CONNECT/CONNECT.lvclass"/>
 			<Item Name="CONNACK.lvclass" Type="LVClass" URL="../Control Packets/CONNACK/CONNACK.lvclass"/>
+			<Item Name="PUBLISH.lvclass" Type="LVClass" URL="../Control Packets/PUBLISH/PUBLISH.lvclass"/>
 			<Item Name="PUBACK.lvclass" Type="LVClass" URL="../Control Packets/PUBACK/PUBACK.lvclass"/>
 			<Item Name="PUBREC.lvclass" Type="LVClass" URL="../Control Packets/PUBREC/PUBREC.lvclass"/>
 			<Item Name="PUBREL.lvclass" Type="LVClass" URL="../Control Packets/PUBREL/PUBREL.lvclass"/>
 			<Item Name="PUBCOMP.lvclass" Type="LVClass" URL="../Control Packets/PUBCOMP/PUBCOMP.lvclass"/>
-			<Item Name="PUBLISH.lvclass" Type="LVClass" URL="../Control Packets/PUBLISH/PUBLISH.lvclass"/>
 			<Item Name="SUBSCRIBE.lvclass" Type="LVClass" URL="../Control Packets/SUBSCRIBE/SUBSCRIBE.lvclass"/>
 			<Item Name="SUBACK.lvclass" Type="LVClass" URL="../Control Packets/SUBACK/SUBACK.lvclass"/>
 			<Item Name="UNSUBSCRIBE.lvclass" Type="LVClass" URL="../Control Packets/UNSUBSCRIBE/UNSUBSCRIBE.lvclass"/>
