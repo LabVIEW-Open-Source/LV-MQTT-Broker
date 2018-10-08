@@ -38,9 +38,13 @@
 			<Item Name="Test CONNECT packet.vi" Type="VI" URL="../Unit Tests/Test CONNECT packet.vi"/>
 			<Item Name="Test CONNACK packet.vi" Type="VI" URL="../Unit Tests/Test CONNACK packet.vi"/>
 			<Item Name="Test PUBLISH packet.vi" Type="VI" URL="../Unit Tests/Test PUBLISH packet.vi"/>
+			<Item Name="Test PUBACK packet.vi" Type="VI" URL="../Unit Tests/Test PUBACK packet.vi"/>
+			<Item Name="Test PUBREC packet.vi" Type="VI" URL="../Unit Tests/Test PUBREC packet.vi"/>
+			<Item Name="Test PUBCOMP packet.vi" Type="VI" URL="../Unit Tests/Test PUBCOMP packet.vi"/>
 			<Item Name="Test Factory.vi" Type="VI" URL="../Unit Tests/Test Factory.vi"/>
 			<Item Name="Test Packet Identifier.vi" Type="VI" URL="../Unit Tests/Test Packet Identifier.vi"/>
 		</Item>
+		<Item Name="Test PUBREL packet.vi" Type="VI" URL="../Unit Tests/Test PUBREL packet.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
