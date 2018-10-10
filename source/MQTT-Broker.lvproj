@@ -35,22 +35,22 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Test CONNECT packet.vi" Type="VI" URL="../Unit Tests/Test CONNECT packet.vi"/>
-			<Item Name="Test CONNACK packet.vi" Type="VI" URL="../Unit Tests/Test CONNACK packet.vi"/>
-			<Item Name="Test PUBLISH packet.vi" Type="VI" URL="../Unit Tests/Test PUBLISH packet.vi"/>
-			<Item Name="Test PUBACK packet.vi" Type="VI" URL="../Unit Tests/Test PUBACK packet.vi"/>
-			<Item Name="Test PUBREC packet.vi" Type="VI" URL="../Unit Tests/Test PUBREC packet.vi"/>
-			<Item Name="Test PUBREL packet.vi" Type="VI" URL="../Unit Tests/Test PUBREL packet.vi"/>
-			<Item Name="Test PUBCOMP packet.vi" Type="VI" URL="../Unit Tests/Test PUBCOMP packet.vi"/>
-			<Item Name="Test SUBSCRIBE packet.vi" Type="VI" URL="../Unit Tests/Test SUBSCRIBE packet.vi"/>
-			<Item Name="Test SUBACK packet.vi" Type="VI" URL="../Unit Tests/Test SUBACK packet.vi"/>
-			<Item Name="Test UNSUBSCRIBE packet.vi" Type="VI" URL="../Unit Tests/Test UNSUBSCRIBE packet.vi"/>
-			<Item Name="Test UNSUBACK packet.vi" Type="VI" URL="../Unit Tests/Test UNSUBACK packet.vi"/>
-			<Item Name="Test PINGREQ packet.vi" Type="VI" URL="../Unit Tests/Test PINGREQ packet.vi"/>
-			<Item Name="Test PINGRESP packet.vi" Type="VI" URL="../Unit Tests/Test PINGRESP packet.vi"/>
-			<Item Name="Test DISCONNECT packet.vi" Type="VI" URL="../Unit Tests/Test DISCONNECT packet.vi"/>
-			<Item Name="Test Factory.vi" Type="VI" URL="../Unit Tests/Test Factory.vi"/>
-			<Item Name="Test Packet Identifier.vi" Type="VI" URL="../Unit Tests/Test Packet Identifier.vi"/>
+			<Item Name="Test CONNECT packet.vi" Type="VI" URL="../../Unit Tests/Test CONNECT packet.vi"/>
+			<Item Name="Test CONNACK packet.vi" Type="VI" URL="../../Unit Tests/Test CONNACK packet.vi"/>
+			<Item Name="Test PUBLISH packet.vi" Type="VI" URL="../../Unit Tests/Test PUBLISH packet.vi"/>
+			<Item Name="Test PUBACK packet.vi" Type="VI" URL="../../Unit Tests/Test PUBACK packet.vi"/>
+			<Item Name="Test PUBREC packet.vi" Type="VI" URL="../../Unit Tests/Test PUBREC packet.vi"/>
+			<Item Name="Test PUBREL packet.vi" Type="VI" URL="../../Unit Tests/Test PUBREL packet.vi"/>
+			<Item Name="Test PUBCOMP packet.vi" Type="VI" URL="../../Unit Tests/Test PUBCOMP packet.vi"/>
+			<Item Name="Test SUBSCRIBE packet.vi" Type="VI" URL="../../Unit Tests/Test SUBSCRIBE packet.vi"/>
+			<Item Name="Test SUBACK packet.vi" Type="VI" URL="../../Unit Tests/Test SUBACK packet.vi"/>
+			<Item Name="Test UNSUBSCRIBE packet.vi" Type="VI" URL="../../Unit Tests/Test UNSUBSCRIBE packet.vi"/>
+			<Item Name="Test UNSUBACK packet.vi" Type="VI" URL="../../Unit Tests/Test UNSUBACK packet.vi"/>
+			<Item Name="Test PINGREQ packet.vi" Type="VI" URL="../../Unit Tests/Test PINGREQ packet.vi"/>
+			<Item Name="Test PINGRESP packet.vi" Type="VI" URL="../../Unit Tests/Test PINGRESP packet.vi"/>
+			<Item Name="Test DISCONNECT packet.vi" Type="VI" URL="../../Unit Tests/Test DISCONNECT packet.vi"/>
+			<Item Name="Test Factory.vi" Type="VI" URL="../../Unit Tests/Test Factory.vi"/>
+			<Item Name="Test Packet Identifier.vi" Type="VI" URL="../../Unit Tests/Test Packet Identifier.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
