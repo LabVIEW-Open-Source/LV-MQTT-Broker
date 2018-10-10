@@ -11,24 +11,25 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="MQTT Control Packet" Type="Folder">
+		<Item Name="Individual Packet Tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="ControlPacket.lvclass" Type="LVClass" URL="../Control Packets/ControlPacket/ControlPacket.lvclass"/>
-			<Item Name="CONNECT.lvclass" Type="LVClass" URL="../Control Packets/CONNECT/CONNECT.lvclass"/>
-			<Item Name="CONNACK.lvclass" Type="LVClass" URL="../Control Packets/CONNACK/CONNACK.lvclass"/>
-			<Item Name="PUBLISH.lvclass" Type="LVClass" URL="../Control Packets/PUBLISH/PUBLISH.lvclass"/>
-			<Item Name="PUBACK.lvclass" Type="LVClass" URL="../Control Packets/PUBACK/PUBACK.lvclass"/>
-			<Item Name="PUBREC.lvclass" Type="LVClass" URL="../Control Packets/PUBREC/PUBREC.lvclass"/>
-			<Item Name="PUBREL.lvclass" Type="LVClass" URL="../Control Packets/PUBREL/PUBREL.lvclass"/>
-			<Item Name="PUBCOMP.lvclass" Type="LVClass" URL="../Control Packets/PUBCOMP/PUBCOMP.lvclass"/>
-			<Item Name="SUBSCRIBE.lvclass" Type="LVClass" URL="../Control Packets/SUBSCRIBE/SUBSCRIBE.lvclass"/>
-			<Item Name="SUBACK.lvclass" Type="LVClass" URL="../Control Packets/SUBACK/SUBACK.lvclass"/>
-			<Item Name="UNSUBSCRIBE.lvclass" Type="LVClass" URL="../Control Packets/UNSUBSCRIBE/UNSUBSCRIBE.lvclass"/>
-			<Item Name="UNSUBACK.lvclass" Type="LVClass" URL="../Control Packets/UNSUBACK/UNSUBACK.lvclass"/>
-			<Item Name="PINGREC.lvclass" Type="LVClass" URL="../Control Packets/PINGREC/PINGREC.lvclass"/>
-			<Item Name="PINGRESP.lvclass" Type="LVClass" URL="../Control Packets/PINGRESP/PINGRESP.lvclass"/>
-			<Item Name="DISCONNECT.lvclass" Type="LVClass" URL="../Control Packets/DISCONNECT/DISCONNECT.lvclass"/>
+			<Item Name="Test CONNECT packet.vi" Type="VI" URL="../Individual Packet Tests/Test CONNECT packet.vi"/>
+			<Item Name="Test CONNACK packet.vi" Type="VI" URL="../Individual Packet Tests/Test CONNACK packet.vi"/>
+			<Item Name="Test PUBLISH packet.vi" Type="VI" URL="../Individual Packet Tests/Test PUBLISH packet.vi"/>
+			<Item Name="Test PUBACK packet.vi" Type="VI" URL="../Individual Packet Tests/Test PUBACK packet.vi"/>
+			<Item Name="Test PUBREL packet.vi" Type="VI" URL="../Individual Packet Tests/Test PUBREL packet.vi"/>
+			<Item Name="Test PUBREC packet.vi" Type="VI" URL="../Individual Packet Tests/Test PUBREC packet.vi"/>
+			<Item Name="Test PUBCOMP packet.vi" Type="VI" URL="../Individual Packet Tests/Test PUBCOMP packet.vi"/>
+			<Item Name="Test SUBSCRIBE packet.vi" Type="VI" URL="../Individual Packet Tests/Test SUBSCRIBE packet.vi"/>
+			<Item Name="Test SUBACK packet.vi" Type="VI" URL="../Individual Packet Tests/Test SUBACK packet.vi"/>
+			<Item Name="Test UNSUBSCRIBE packet.vi" Type="VI" URL="../Individual Packet Tests/Test UNSUBSCRIBE packet.vi"/>
+			<Item Name="Test UNSUBACK packet.vi" Type="VI" URL="../Individual Packet Tests/Test UNSUBACK packet.vi"/>
+			<Item Name="Test PINGREQ packet.vi" Type="VI" URL="../Individual Packet Tests/Test PINGREQ packet.vi"/>
+			<Item Name="Test PINGRESP packet.vi" Type="VI" URL="../Individual Packet Tests/Test PINGRESP packet.vi"/>
+			<Item Name="Test DISCONNECT packet.vi" Type="VI" URL="../Individual Packet Tests/Test DISCONNECT packet.vi"/>
 		</Item>
+		<Item Name="Test Factory.vi" Type="VI" URL="../Test Factory.vi"/>
+		<Item Name="Test Packet Identifier.vi" Type="VI" URL="../Test Packet Identifier.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -67,6 +68,21 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="CONNACK.lvclass" Type="LVClass" URL="../../source/Control Packets/CONNACK/CONNACK.lvclass"/>
+			<Item Name="CONNECT.lvclass" Type="LVClass" URL="../../source/Control Packets/CONNECT/CONNECT.lvclass"/>
+			<Item Name="ControlPacket.lvclass" Type="LVClass" URL="../../source/Control Packets/ControlPacket/ControlPacket.lvclass"/>
+			<Item Name="DISCONNECT.lvclass" Type="LVClass" URL="../../source/Control Packets/DISCONNECT/DISCONNECT.lvclass"/>
+			<Item Name="PINGREC.lvclass" Type="LVClass" URL="../../source/Control Packets/PINGREC/PINGREC.lvclass"/>
+			<Item Name="PINGRESP.lvclass" Type="LVClass" URL="../../source/Control Packets/PINGRESP/PINGRESP.lvclass"/>
+			<Item Name="PUBACK.lvclass" Type="LVClass" URL="../../source/Control Packets/PUBACK/PUBACK.lvclass"/>
+			<Item Name="PUBCOMP.lvclass" Type="LVClass" URL="../../source/Control Packets/PUBCOMP/PUBCOMP.lvclass"/>
+			<Item Name="PUBLISH.lvclass" Type="LVClass" URL="../../source/Control Packets/PUBLISH/PUBLISH.lvclass"/>
+			<Item Name="PUBREC.lvclass" Type="LVClass" URL="../../source/Control Packets/PUBREC/PUBREC.lvclass"/>
+			<Item Name="PUBREL.lvclass" Type="LVClass" URL="../../source/Control Packets/PUBREL/PUBREL.lvclass"/>
+			<Item Name="SUBACK.lvclass" Type="LVClass" URL="../../source/Control Packets/SUBACK/SUBACK.lvclass"/>
+			<Item Name="SUBSCRIBE.lvclass" Type="LVClass" URL="../../source/Control Packets/SUBSCRIBE/SUBSCRIBE.lvclass"/>
+			<Item Name="UNSUBACK.lvclass" Type="LVClass" URL="../../source/Control Packets/UNSUBACK/UNSUBACK.lvclass"/>
+			<Item Name="UNSUBSCRIBE.lvclass" Type="LVClass" URL="../../source/Control Packets/UNSUBSCRIBE/UNSUBSCRIBE.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
