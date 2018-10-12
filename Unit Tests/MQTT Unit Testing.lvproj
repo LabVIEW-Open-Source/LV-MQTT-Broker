@@ -31,6 +31,7 @@
 		<Item Name="Requirements Coverage" Type="Folder">
 			<Item Name="Test MQTT-3.1.2-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-2.vi"/>
 			<Item Name="Test MQTT-3.1.2-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-3.vi"/>
+			<Item Name="Test MQTT-3.1.3-9.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.3-9.vi"/>
 		</Item>
 		<Item Name="Test Factory.vi" Type="VI" URL="../Test Factory.vi"/>
 		<Item Name="Test Packet Identifier.vi" Type="VI" URL="../Test Packet Identifier.vi"/>
