@@ -29,6 +29,7 @@
 			<Item Name="Test DISCONNECT packet.vi" Type="VI" URL="../Individual Packet Tests/Test DISCONNECT packet.vi"/>
 		</Item>
 		<Item Name="Requirements Coverage" Type="Folder">
+			<Item Name="Test MQTT-3.1.2-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-1.vi"/>
 			<Item Name="Test MQTT-3.1.2-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-2.vi"/>
 			<Item Name="Test MQTT-3.1.2-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-3.vi"/>
 			<Item Name="Test MQTT-3.1.3-9.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.3-9.vi"/>
