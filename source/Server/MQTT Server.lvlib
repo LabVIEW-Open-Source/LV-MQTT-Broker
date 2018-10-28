@@ -9,4 +9,7 @@
 	<Item Name="TCPConnectionHandler.lvclass" Type="LVClass" URL="../ConnectionHandler/TCPConnectionHandler.lvclass"/>
 	<Item Name="TCPConnection.lvclass" Type="LVClass" URL="../Connection/TCPConnection.lvclass"/>
 	<Item Name="Session.lvclass" Type="LVClass" URL="../Session/Session.lvclass"/>
+	<Item Name="StoredSessions.lvclass" Type="LVClass" URL="../StoredSessions/StoredSessions.lvclass">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 </Library>
