@@ -56,6 +56,16 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
+		<Item Name="Send SessionDisconnectMessage.vi" Type="VI" URL="../Send SessionDisconnectMessage.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;O!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$"!=!!?!!!8&amp;5.P&lt;H2S&lt;WR197.L:81O&lt;(:D&lt;'&amp;T=Q!/5W6S&gt;G6S5G6T='^O=W5!!"R!5!!$!!!!!1!#$F"S&lt;X2P9W^M)%6S=G^S!!!11#%+:'FT9W^O&lt;G6D&gt;!!!7Q$R!!!!!!!!!!-246&amp;56#"4:8*W:8)O&lt;(:M;7)/5W6S&gt;G6S,GRW9WRB=X-85G6T='^O=W5A,3UA9WRV=X2F=CZD&gt;'Q!'E"1!!-!"1!'!!=)5G6T='^O=W5!!"J!=!!3!!%!#!Z4:8.T;7^O47&amp;J&lt;'*P?!!!6!$Q!!Q!!Q!%!!1!"!!%!!1!"!!%!!1!"!!%!!E$!!"Y!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!1!+!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+		</Item>
 	</Item>
 	<Item Name="Create Server.vi" Type="VI" URL="../Create Server.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%U!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!C%5V26&amp;1A5W6S&gt;G6S,GRW&lt;'FC$F.F=H:F=CZM&gt;G.M98.T!!!'5W6S&gt;G6S!!!W1(!!(A!!)B&amp;.5625)&amp;.F=H:F=CZM&gt;GRJ9AZ4:8*W:8)O&lt;(:D&lt;'&amp;T=Q!!#6.F=H:F=C"J&lt;A!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!'%!]!!-!!-!"!!%!!5!"!!'!!1!"!!(!!1!"!!%!Q!!?!!!$1A!!!!!!!!!!!!!$15!!!!!!!!+!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!!!!!.!!!!"A!!!!!!!!!!!!!"!!A!!!!!</Property>
