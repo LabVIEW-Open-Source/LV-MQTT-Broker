@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Server.lvclass" Type="LVClass" URL="../Server class/Server.lvclass"/>
+	<Item Name="Client.lvclass" Type="LVClass" URL="../Client class/Client.lvclass"/>
 	<Item Name="TCPConnectionHandler.lvclass" Type="LVClass" URL="../ConnectionHandler/TCPConnectionHandler.lvclass"/>
 	<Item Name="TCPConnection.lvclass" Type="LVClass" URL="../Connection/TCPConnection.lvclass"/>
 	<Item Name="Session.lvclass" Type="LVClass" URL="../Session/Session.lvclass"/>
