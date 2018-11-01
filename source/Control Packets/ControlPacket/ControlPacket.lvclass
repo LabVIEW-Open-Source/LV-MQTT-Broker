@@ -344,6 +344,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082143234</Property>
 		</Item>
+		<Item Name="Pending Transmission -- cluster.ctl" Type="VI" URL="../Pending Transmission -- cluster.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%E!!!!"!!I1(!!(A!!&amp;R6$&lt;WZU=G^M5'&amp;D;W6U,GRW9WRB=X-!"UVF=X.B:W5!@A$R!!!!!!!!!!)61W^O&gt;(*P&lt;&amp;"B9WNF&gt;#ZM&gt;G.M98.T(&amp;&amp;V97RJ&gt;(F0:F.F=H:J9W5A,3UA:7ZV&lt;3ZD&gt;'Q!1U!7!!-1-#!I181A47^T&gt;#"0&lt;G.F+2%R)#B"&gt;#"-:7&amp;T&gt;#"0&lt;G.F+2!S)#B&amp;?'&amp;D&gt;'RZ)%^O9W5J!!.2&lt;V-!%%!B#V2S97ZT&lt;7FU&gt;'6E!'9!]1!!!!!!!!!#&amp;5.P&lt;H2S&lt;WR197.L:81O&lt;(:D&lt;'&amp;T=S.1:7ZE;7ZH)&amp;2S97ZT&lt;7FT=WFP&lt;C!N,3"D&lt;(6T&gt;'6S,G.U&lt;!!E1&amp;!!!Q!!!!%!!B*5&lt;X"J9S"4&gt;7*T9X*J=(2J&lt;WY!!!%!!Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
+		</Item>
 		<Item Name="QualityOfService -- enum.ctl" Type="VI" URL="../QualityOfService -- enum.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#'!!!!!1"_!0%!!!!!!!!!!B6$&lt;WZU=G^M5'&amp;D;W6U,GRW9WRB=X-=586B&lt;'FU?5^G5W6S&gt;GFD:3!N,3"F&lt;H6N,G.U&lt;!"$1"9!!R!Q)#B"&gt;#".&lt;X.U)%^O9W5J%4%A+%&amp;U)%RF98.U)%^O9W5J%$)A+%6Y97.U&lt;(EA4WZD:3E!!V&amp;P5Q!"!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
