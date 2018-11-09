@@ -14,4 +14,5 @@
 	<Item Name="StoredSessions.lvclass" Type="LVClass" URL="../StoredSessions/StoredSessions.lvclass">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Create MQTT Server.vi" Type="VI" URL="../../Create MQTT Server.vi"/>
 </Library>
