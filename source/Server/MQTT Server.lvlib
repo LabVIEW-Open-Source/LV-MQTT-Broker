@@ -14,4 +14,5 @@
 	<Item Name="StoredSessions.lvclass" Type="LVClass" URL="../StoredSessions/StoredSessions.lvclass">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Subscription.lvclass" Type="LVClass" URL="../Subscription/Subscription.lvclass"/>
 </Library>
