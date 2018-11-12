@@ -32,8 +32,8 @@
 		<Item Name="MQTT Server" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="MQTT Server.lvlib" Type="Library" URL="../Server/MQTT Server.lvlib"/>
-			<Item Name="Test Server.vi" Type="VI" URL="../Server/Test Server.vi"/>
 		</Item>
+		<Item Name="Test Server.vi" Type="VI" URL="../Server/Test Server.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
