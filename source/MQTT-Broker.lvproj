@@ -33,7 +33,6 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="MQTT Server.lvlib" Type="Library" URL="../Server/MQTT Server.lvlib"/>
 		</Item>
-		<Item Name="Test Publish Packet (2).vi" Type="VI" URL="../../Unit Tests/Test Publish Packet (2).vi"/>
 		<Item Name="Test Server.vi" Type="VI" URL="../Server/Test Server.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
