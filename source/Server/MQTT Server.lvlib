@@ -5,8 +5,14 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="MQTT_Base.lvclass" Type="LVClass" URL="../../MQTT_Base/MQTT_Base.lvclass"/>
 	<Item Name="Server.lvclass" Type="LVClass" URL="../Server class/Server.lvclass"/>
+	<Item Name="Client.lvclass" Type="LVClass" URL="../../Client/Client.lvclass"/>
 	<Item Name="TCPConnectionHandler.lvclass" Type="LVClass" URL="../ConnectionHandler/TCPConnectionHandler.lvclass"/>
 	<Item Name="TCPConnection.lvclass" Type="LVClass" URL="../Connection/TCPConnection.lvclass"/>
 	<Item Name="Session.lvclass" Type="LVClass" URL="../Session/Session.lvclass"/>
+	<Item Name="StoredSessions.lvclass" Type="LVClass" URL="../StoredSessions/StoredSessions.lvclass">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Subscription.lvclass" Type="LVClass" URL="../Subscription/Subscription.lvclass"/>
 </Library>
