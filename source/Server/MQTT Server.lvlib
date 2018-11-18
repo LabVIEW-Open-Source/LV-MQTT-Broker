@@ -15,4 +15,5 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Subscription.lvclass" Type="LVClass" URL="../Subscription/Subscription.lvclass"/>
+	<Item Name="TopicFilter.lvclass" Type="LVClass" URL="../TopicFilter/TopicFilter.lvclass"/>
 </Library>
