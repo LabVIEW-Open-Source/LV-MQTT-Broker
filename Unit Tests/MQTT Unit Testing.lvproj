@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="13008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -45,6 +46,7 @@
 			<Item Name="Test MQTT-3.3.2-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.3.2-1.vi"/>
 			<Item Name="Test MQTT-3.3.2-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.3.2-2.vi"/>
 			<Item Name="Test MQTT-3.8.1-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.8.1-1.vi"/>
+			<Item Name="Test MQTT-3.9.3-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.9.3-2.vi"/>
 		</Item>
 		<Item Name="Requirement Coverage.vi" Type="VI" URL="../Requirement Coverage.vi"/>
 		<Item Name="Test Factory.vi" Type="VI" URL="../Test Factory.vi"/>
