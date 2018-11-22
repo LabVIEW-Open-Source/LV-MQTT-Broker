@@ -51,6 +51,7 @@
 			<Item Name="Test MQTT-3.8.4-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.8.4-3.vi"/>
 			<Item Name="Test MQTT-3.8.4-5.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.8.4-5.vi"/>
 			<Item Name="Test MQTT-3.9.3-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.9.3-2.vi"/>
+			<Item Name="Test MQTT-3.12.4-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.12.4-1.vi"/>
 		</Item>
 		<Item Name="Requirement Coverage.vi" Type="VI" URL="../Requirement Coverage.vi"/>
 		<Item Name="Test Factory.vi" Type="VI" URL="../Test Factory.vi"/>
@@ -148,7 +149,7 @@
 			<Item Name="ControlPacket.lvclass" Type="LVClass" URL="../../source/Control Packets/ControlPacket/ControlPacket.lvclass"/>
 			<Item Name="DISCONNECT.lvclass" Type="LVClass" URL="../../source/Control Packets/DISCONNECT/DISCONNECT.lvclass"/>
 			<Item Name="MQTT Server.lvlib" Type="Library" URL="../../source/Server/MQTT Server.lvlib"/>
-			<Item Name="PINGREC.lvclass" Type="LVClass" URL="../../source/Control Packets/PINGREC/PINGREC.lvclass"/>
+			<Item Name="PINGREQ.lvclass" Type="LVClass" URL="../../source/Control Packets/PINGREC/PINGREQ.lvclass"/>
 			<Item Name="PINGRESP.lvclass" Type="LVClass" URL="../../source/Control Packets/PINGRESP/PINGRESP.lvclass"/>
 			<Item Name="PUBACK.lvclass" Type="LVClass" URL="../../source/Control Packets/PUBACK/PUBACK.lvclass"/>
 			<Item Name="PUBCOMP.lvclass" Type="LVClass" URL="../../source/Control Packets/PUBCOMP/PUBCOMP.lvclass"/>
