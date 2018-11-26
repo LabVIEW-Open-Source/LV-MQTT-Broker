@@ -62,6 +62,7 @@
 		<Item Name="Test Factory.vi" Type="VI" URL="../Test Factory.vi"/>
 		<Item Name="Test Packet Identifier.vi" Type="VI" URL="../Test Packet Identifier.vi"/>
 		<Item Name="Test MQTT-4.7.2-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.2-1.vi"/>
+		<Item Name="Test MQTT-4.7.3-4.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.3-4.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel (Bool)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (Bool)__ogtk.vi"/>
