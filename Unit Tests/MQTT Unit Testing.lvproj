@@ -30,40 +30,51 @@
 			<Item Name="Test DISCONNECT packet.vi" Type="VI" URL="../Individual Packet Tests/Test DISCONNECT packet.vi"/>
 		</Item>
 		<Item Name="Requirements Coverage" Type="Folder">
+			<Item Name="Section 1" Type="Folder">
+				<Item Name="Test MQTT-1.5.3-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-1.5.3-1.vi"/>
+				<Item Name="Test MQTT-1.5.3-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-1.5.3-2.vi"/>
+				<Item Name="Test MQTT-1.5.3-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-1.5.3-3.vi"/>
+			</Item>
+			<Item Name="Section 2" Type="Folder">
+				<Item Name="Test MQTT-2.2.2-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-2.2.2-2.vi"/>
+				<Item Name="Test MQTT-2.3.1-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-2.3.1-1.vi"/>
+				<Item Name="Test MQTT-2.3.1-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-2.3.1-2.vi"/>
+			</Item>
+			<Item Name="Section 3" Type="Folder">
+				<Item Name="Test MQTT-3.1.0-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.0-1.vi"/>
+				<Item Name="Test MQTT-3.1.0-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.0-2.vi"/>
+				<Item Name="Test MQTT-3.1.2-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-1.vi"/>
+				<Item Name="Test MQTT-3.1.2-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-2.vi"/>
+				<Item Name="Test MQTT-3.1.2-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-3.vi"/>
+				<Item Name="Test MQTT-3.1.3-9.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.3-9.vi"/>
+				<Item Name="Test MQTT-3.1.4-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.4-2.vi"/>
+				<Item Name="Test MQTT-3.2.0-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.2.0-1.vi"/>
+				<Item Name="Test MQTT-3.2.2-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.2.2-2.vi"/>
+				<Item Name="Test MQTT-3.2.2-4.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.2.2-4.vi"/>
+				<Item Name="Test MQTT-3.3.2-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.3.2-1.vi"/>
+				<Item Name="Test MQTT-3.3.2-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.3.2-2.vi"/>
+				<Item Name="Test MQTT-3.3.2-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.3.2-3.vi"/>
+				<Item Name="Test MQTT-3.6.1-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.6.1-1.vi"/>
+				<Item Name="Test MQTT-3.8.1-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.8.1-1.vi"/>
+				<Item Name="Test MQTT-3.8.3-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.8.3-3.vi"/>
+				<Item Name="Test MQTT-3.8.4-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.8.4-2.vi"/>
+				<Item Name="Test MQTT-3.8.4-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.8.4-3.vi"/>
+				<Item Name="Test MQTT-3.8.4-5.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.8.4-5.vi"/>
+				<Item Name="Test MQTT-3.9.3-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.9.3-2.vi"/>
+				<Item Name="Test MQTT-3.12.4-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.12.4-1.vi"/>
+				<Item Name="Test MQTT-3.14.4-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.14.4-1.vi"/>
+			</Item>
+			<Item Name="Section 4" Type="Folder">
+				<Item Name="Test MQTT-4.7.1-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.1-1.vi"/>
+				<Item Name="Test MQTT-4.7.1-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.1-2.vi"/>
+				<Item Name="Test MQTT-4.7.1-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.1-3.vi"/>
+				<Item Name="Test MQTT-4.7.2-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.2-1.vi"/>
+				<Item Name="Test MQTT-4.7.3-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.3-1.vi"/>
+				<Item Name="Test MQTT-4.7.3-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.3-2.vi"/>
+				<Item Name="Test MQTT-4.7.3-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.3-3.vi"/>
+				<Item Name="Test MQTT-4.7.3-4.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.3-4.vi"/>
+			</Item>
 			<Item Name="GetServerRef.vi" Type="VI" URL="../Requirements Coverage/GetServerRef.vi"/>
-			<Item Name="Test MQTT-1.5.3-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-1.5.3-1.vi"/>
-			<Item Name="Test MQTT-1.5.3-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-1.5.3-2.vi"/>
-			<Item Name="Test MQTT-1.5.3-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-1.5.3-3.vi"/>
-			<Item Name="Test MQTT-2.3.1-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-2.3.1-1.vi"/>
-			<Item Name="Test MQTT-2.3.1-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-2.3.1-2.vi"/>
-			<Item Name="Test MQTT-3.1.0-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.0-1.vi"/>
-			<Item Name="Test MQTT-3.1.0-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.0-2.vi"/>
-			<Item Name="Test MQTT-3.1.2-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-1.vi"/>
-			<Item Name="Test MQTT-3.1.2-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-2.vi"/>
-			<Item Name="Test MQTT-3.1.2-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-3.vi"/>
-			<Item Name="Test MQTT-3.1.3-9.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.3-9.vi"/>
-			<Item Name="Test MQTT-3.1.4-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.4-2.vi"/>
-			<Item Name="Test MQTT-3.2.0-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.2.0-1.vi"/>
-			<Item Name="Test MQTT-3.2.2-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.2.2-2.vi"/>
-			<Item Name="Test MQTT-3.3.2-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.3.2-1.vi"/>
-			<Item Name="Test MQTT-3.3.2-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.3.2-2.vi"/>
-			<Item Name="Test MQTT-3.3.2-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.3.2-3.vi"/>
-			<Item Name="Test MQTT-3.8.1-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.8.1-1.vi"/>
-			<Item Name="Test MQTT-3.8.3-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.8.3-3.vi"/>
-			<Item Name="Test MQTT-3.8.4-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.8.4-2.vi"/>
-			<Item Name="Test MQTT-3.8.4-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.8.4-3.vi"/>
-			<Item Name="Test MQTT-3.8.4-5.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.8.4-5.vi"/>
-			<Item Name="Test MQTT-3.9.3-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.9.3-2.vi"/>
-			<Item Name="Test MQTT-3.12.4-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.12.4-1.vi"/>
-			<Item Name="Test MQTT-3.14.4-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.14.4-1.vi"/>
-			<Item Name="Test MQTT-4.7.1-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.1-1.vi"/>
-			<Item Name="Test MQTT-4.7.1-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.1-2.vi"/>
-			<Item Name="Test MQTT-4.7.1-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.1-3.vi"/>
-			<Item Name="Test MQTT-4.7.2-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.2-1.vi"/>
-			<Item Name="Test MQTT-4.7.3-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.3-1.vi"/>
-			<Item Name="Test MQTT-4.7.3-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.3-2.vi"/>
-			<Item Name="Test MQTT-4.7.3-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.3-3.vi"/>
-			<Item Name="Test MQTT-4.7.3-4.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.3-4.vi"/>
 		</Item>
 		<Item Name="Requirement Coverage.vi" Type="VI" URL="../Requirement Coverage.vi"/>
 		<Item Name="Test Factory.vi" Type="VI" URL="../Test Factory.vi"/>
