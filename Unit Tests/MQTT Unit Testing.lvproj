@@ -57,6 +57,7 @@
 				<Item Name="Test MQTT-3.1.2-21.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-21.vi"/>
 				<Item Name="Test MQTT-3.1.2-22.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-22.vi"/>
 				<Item Name="Test MQTT-3.1.3-9.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.3-9.vi"/>
+				<Item Name="Test MQTT-3.1.3-11.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.3-11.vi"/>
 				<Item Name="Test MQTT-3.1.4-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.4-2.vi"/>
 				<Item Name="Test MQTT-3.2.0-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.2.0-1.vi"/>
 				<Item Name="Test MQTT-3.2.2-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.2.2-2.vi"/>
