@@ -25,7 +25,7 @@
 			<Item Name="SUBACK.lvclass" Type="LVClass" URL="../Control Packets/SUBACK/SUBACK.lvclass"/>
 			<Item Name="UNSUBSCRIBE.lvclass" Type="LVClass" URL="../Control Packets/UNSUBSCRIBE/UNSUBSCRIBE.lvclass"/>
 			<Item Name="UNSUBACK.lvclass" Type="LVClass" URL="../Control Packets/UNSUBACK/UNSUBACK.lvclass"/>
-			<Item Name="PINGREQ.lvclass" Type="LVClass" URL="../Control Packets/PINGREC/PINGREQ.lvclass"/>
+			<Item Name="PINGREQ.lvclass" Type="LVClass" URL="../Control Packets/PINGREQ/PINGREQ.lvclass"/>
 			<Item Name="PINGRESP.lvclass" Type="LVClass" URL="../Control Packets/PINGRESP/PINGRESP.lvclass"/>
 			<Item Name="DISCONNECT.lvclass" Type="LVClass" URL="../Control Packets/DISCONNECT/DISCONNECT.lvclass"/>
 		</Item>
@@ -33,7 +33,6 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="MQTT Server.lvlib" Type="Library" URL="../Server/MQTT Server.lvlib"/>
 		</Item>
-		<Item Name="Example.vi" Type="VI" URL="../Example.vi"/>
 		<Item Name="Test Server.vi" Type="VI" URL="../Server/Test Server.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -79,7 +78,6 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="GetServerRef.vi" Type="VI" URL="../../Unit Tests/Requirements Coverage/GetServerRef.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
