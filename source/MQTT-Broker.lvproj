@@ -33,6 +33,7 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="MQTT Server.lvlib" Type="Library" URL="../Server/MQTT Server.lvlib"/>
 		</Item>
+		<Item Name="Example.vi" Type="VI" URL="../Example.vi"/>
 		<Item Name="Test Server.vi" Type="VI" URL="../Server/Test Server.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -78,6 +79,7 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="GetServerRef.vi" Type="VI" URL="../../Unit Tests/Requirements Coverage/GetServerRef.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
