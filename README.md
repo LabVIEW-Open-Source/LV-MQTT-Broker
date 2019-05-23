@@ -1,3 +1,12 @@
+# NI Week 2019 Presentation
+
+Demo code can be found here:
+https://github.com/francois-normandin/message-exchange-patterns
+
+You can find a PDF copy of the presentation in the release page:
+https://github.com/francois-normandin/message-exchange-patterns/releases
+
+
 # LV-MQTT-Broker
 Native LabVIEW MQTT Broker Server
 
