@@ -10,16 +10,28 @@ https://github.com/francois-normandin/message-exchange-patterns/releases
 # LV-MQTT-Broker
 Native LabVIEW MQTT Broker Server
 
+This project is an exercise in Test-Driven Development, which essentially means that the code is implemented gradually and verified through comprehensive unit tests. At any point in time, the features included in a particular release are fully functional. This also means that all releases have partial functionality. 
+
+For a fully compliant MQTT broker, 141 requirements (as listed in the OASIS specification) need to be satisfied. Those requirements have been added as issues. The list of currently supported features is found by filtering the issues to show only the "closed" issues.
+
+For example, release 0.1 features a functional client and broker but does not support QoS>0, retain messages, duplicate flag, wills or support for session persistency.
+
+# Compliance
+
 This project is an implementation of the MQTT 3.1.1 Oasis Standard as defined here:
 
 >[mqtt-v3.1.1]
 >
 >MQTT Version 3.1.1. Edited by Andrew Banks and Rahul Gupta. 29 October 2014. OASIS Standard. http://docs.oasis->open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html. Latest version: http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/mqtt->v3.1.1.html.
 
+For those interested, MQTT 5.0 was released in March 2019 and will be tackled by this project when the broker is mature enough for production deployments.
+
+# Contribution to the project
+
 It is an all-LabVIEW MQTT broker. The project includes a subset for a MQTT Client, as this is useful for testing the server implementation. All normative requirements are being listed in this project as issues to solve in order to have a fully compliant MQTT broker.
 
 To contribute to this project, you must: 
-- Sign the contributor agreement and agree that your contribution will be licensed under "The Unlicense" and attribution will be in the name of "LabVIEW Open Source Project". As a co-author, your contribution will be recognized through the commit logs made on this repository.
+- Sign the contributor agreement and agree that your contribution will be licensed under "The Unlicense" and attribution will be in the name of "LabVIEW Open Source Project". As a co-author, your contribution will be recognized through the commit logs made on this repository and in your personal Github activity report. 
 - Use LabVIEW 2013 SP1 for source code
 - Dependencies have to be compatible with "The Unlicense" licensing requirements. If in doubt, please ask.
 - Use the [MQTT-x.x.x-y] format in any commit that addresses a particular requirement whether it relates to bug, question or conformance to the said requirement.
