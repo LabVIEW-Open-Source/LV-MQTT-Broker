@@ -35,6 +35,7 @@ To contribute to this project, you must:
 - Use LabVIEW 2013 SP1 for source code
 - Dependencies have to be compatible with "The Unlicense" licensing requirements. If in doubt, please ask.
 - Use the [MQTT-x.x.x-y] format in any commit that addresses a particular requirement whether it relates to bug, question or conformance to the said requirement.
+- This project is developed using a Test-Driven approach (TDD). This means that ALL requirements MUST have a unit test that confirms that a requirement is met before that requirement can be labeld as "closed".
 
 
 # Excerpt From the OASIS MQTT Specification
