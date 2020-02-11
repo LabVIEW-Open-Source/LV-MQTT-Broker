@@ -53,6 +53,7 @@
 				<Item Name="Test MQTT-3.1.2-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-2.vi"/>
 				<Item Name="Test MQTT-3.1.2-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-3.vi"/>
 				<Item Name="Test MQTT-3.1.2-11.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-11.vi"/>
+				<Item Name="Test MQTT-3.1.2-12.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-12.vi"/>
 				<Item Name="Test MQTT-3.1.2-18.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-18.vi"/>
 				<Item Name="Test MQTT-3.1.2-19.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-19.vi"/>
 				<Item Name="Test MQTT-3.1.2-20.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.2-20.vi"/>
@@ -62,7 +63,11 @@
 				<Item Name="Test MQTT-3.1.3-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.3-3.vi"/>
 				<Item Name="Test MQTT-3.1.3-4.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.3-4.vi"/>
 				<Item Name="Test MQTT-3.1.3-5.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.3-5.vi"/>
+				<Item Name="Test MQTT-3.1.3-6.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.3-6.vi"/>
+				<Item Name="Test MQTT-3.1.3-7.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.3-7.vi"/>
+				<Item Name="Test MQTT-3.1.3-8.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.3-8.vi"/>
 				<Item Name="Test MQTT-3.1.3-9.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.3-9.vi"/>
+				<Item Name="Test MQTT-3.1.3-10.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.3-10.vi"/>
 				<Item Name="Test MQTT-3.1.3-11.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.3-11.vi"/>
 				<Item Name="Test MQTT-3.1.4-2.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.1.4-2.vi"/>
 				<Item Name="Test MQTT-3.2.0-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-3.2.0-1.vi"/>
@@ -96,7 +101,7 @@
 		<Item Name="Requirement Coverage.vi" Type="VI" URL="../Requirement Coverage.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Application Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/menu/Application Menu.rtm"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Caraya.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/Caraya.lvlib"/>
@@ -135,7 +140,7 @@
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
 				<Item Name="OpenDescriptor.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source/Data Manipulation/TypeDescriptor/OpenDescriptor.lvlib"/>
 				<Item Name="OpenVariant.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source/Data Manipulation/Variant/OpenVariant.lvlib"/>
-				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Serializer.FlattenedString.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Serializer/Serializer.FlattenedString/Serializer.FlattenedString.lvclass"/>
@@ -434,7 +439,7 @@
 			<Item Name="ControlPacket.lvclass" Type="LVClass" URL="../../source/Control Packets/ControlPacket/ControlPacket.lvclass"/>
 			<Item Name="DISCONNECT.lvclass" Type="LVClass" URL="../../source/Control Packets/DISCONNECT/DISCONNECT.lvclass"/>
 			<Item Name="MQTT Server.lvlib" Type="Library" URL="../../source/Server/MQTT Server.lvlib"/>
-			<Item Name="PINGREQ.lvclass" Type="LVClass" URL="../../source/Control Packets/PINGREC/PINGREQ.lvclass"/>
+			<Item Name="PINGREQ.lvclass" Type="LVClass" URL="../../source/Control Packets/PINGREQ/PINGREQ.lvclass"/>
 			<Item Name="PINGRESP.lvclass" Type="LVClass" URL="../../source/Control Packets/PINGRESP/PINGRESP.lvclass"/>
 			<Item Name="PUBACK.lvclass" Type="LVClass" URL="../../source/Control Packets/PUBACK/PUBACK.lvclass"/>
 			<Item Name="PUBCOMP.lvclass" Type="LVClass" URL="../../source/Control Packets/PUBCOMP/PUBCOMP.lvclass"/>
@@ -446,6 +451,7 @@
 			<Item Name="UNSUBACK.lvclass" Type="LVClass" URL="../../source/Control Packets/UNSUBACK/UNSUBACK.lvclass"/>
 			<Item Name="UNSUBSCRIBE.lvclass" Type="LVClass" URL="../../source/Control Packets/UNSUBSCRIBE/UNSUBSCRIBE.lvclass"/>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
+			<Item Name="PINGREQ.lvclass" Type="LVClass" URL="../../source/Control Packets/PINGREC/PINGREQ.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

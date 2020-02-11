@@ -25,7 +25,7 @@
 			<Item Name="SUBACK.lvclass" Type="LVClass" URL="../Control Packets/SUBACK/SUBACK.lvclass"/>
 			<Item Name="UNSUBSCRIBE.lvclass" Type="LVClass" URL="../Control Packets/UNSUBSCRIBE/UNSUBSCRIBE.lvclass"/>
 			<Item Name="UNSUBACK.lvclass" Type="LVClass" URL="../Control Packets/UNSUBACK/UNSUBACK.lvclass"/>
-			<Item Name="PINGREQ.lvclass" Type="LVClass" URL="../Control Packets/PINGREC/PINGREQ.lvclass"/>
+			<Item Name="PINGREQ.lvclass" Type="LVClass" URL="../Control Packets/PINGREQ/PINGREQ.lvclass"/>
 			<Item Name="PINGRESP.lvclass" Type="LVClass" URL="../Control Packets/PINGRESP/PINGRESP.lvclass"/>
 			<Item Name="DISCONNECT.lvclass" Type="LVClass" URL="../Control Packets/DISCONNECT/DISCONNECT.lvclass"/>
 		</Item>
