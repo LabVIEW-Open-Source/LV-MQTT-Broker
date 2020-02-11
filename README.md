@@ -22,7 +22,7 @@ This project is an implementation of the MQTT 3.1.1 Oasis Standard as defined he
 
 >[mqtt-v3.1.1]
 >
->MQTT Version 3.1.1. Edited by Andrew Banks and Rahul Gupta. 29 October 2014. OASIS Standard. http://docs.oasis->open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html. Latest version: http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/mqtt->v3.1.1.html.
+>MQTT Version 3.1.1. Edited by Andrew Banks and Rahul Gupta. 29 October 2014. OASIS Standard. http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html. Latest version: http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/mqtt->v3.1.1.html.
 
 For those interested, MQTT 5.0 was released in March 2019 and will be tackled by this project when the broker is mature enough for production deployments.
 
