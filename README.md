@@ -31,9 +31,9 @@ For those interested, MQTT 5.0 was released in March 2019 and will be tackled by
 It is an all-LabVIEW MQTT broker. The project includes a subset for a MQTT Client, as this is useful for testing the server implementation. All normative requirements are being listed in this project as issues to solve in order to have a fully compliant MQTT broker.
 
 To contribute to this project, you must: 
-- Sign the contributor agreement and agree that your contribution will be licensed under "The Unlicense" and attribution will be in the name of "LabVIEW Open Source Project". As a co-author, your contribution will be recognized through the commit logs made on this repository and in your personal Github activity report. 
+- Sign the contributor agreement and agree that your contribution will be licensed under "0-BSD" and attribution will be in the name of "LabVIEW Open Source Project". As a co-author, your contribution will be recognized through the commit logs made on this repository and in your personal Github activity report. 
 - Use LabVIEW 2013 SP1 for source code
-- Dependencies have to be compatible with "The Unlicense" licensing requirements. If in doubt, please ask.
+- Dependencies have to be compatible with "0-BSD" licensing requirements. If in doubt, please ask.
 - Use the [MQTT-x.x.x-y] format in any commit that addresses a particular requirement whether it relates to bug, question or conformance to the said requirement.
 - This project is developed using a Test-Driven approach (TDD). This means that ALL requirements MUST have a unit test that confirms that a requirement is met before that requirement can be labeld as "closed".
 
