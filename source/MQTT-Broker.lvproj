@@ -36,7 +36,6 @@
 		</Item>
 		<Item Name="Test Server.vi" Type="VI" URL="../Server/Test Server.vi"/>
 		<Item Name="Test HighFrequency Client Connection.vi" Type="VI" URL="../Server/Test HighFrequency Client Connection.vi"/>
-		<Item Name="Benchmark_TCP Connection.vi" Type="VI" URL="../../Unit Tests/Benchmarks/Benchmark_TCP Connection.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
