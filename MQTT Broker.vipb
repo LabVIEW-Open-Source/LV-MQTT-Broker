@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-09-05 07:42:30" Creator="normandinf" Comments="" ID="d4412ccc1a3f432438343b65bd6008c7">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-09-07 15:51:56" Creator="normandinf" Comments="" ID="b27fd34062021432a4b6807f164c4fc0">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Broker</Package_File_Name>
-    <Library_Version>1.0.3.4</Library_Version>
+    <Library_Version>1.0.4.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -557,7 +557,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\MQTT_Base\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>689106B946A66CFFF5ACD8AA699FFB09</GUID>
+      <GUID>0927E20EAED417DCBA7C403D1E3DC4EB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -788,7 +788,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\Control Packets\ControlPacket</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A9B51E80B0C069A280C4152675DEC005</GUID>
+      <GUID>F75E4CF070EC0594A1EC9AC46FD1735A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -893,7 +893,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\Control Packets\CONNACK\Validate Variable Header.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>942DB60C4CAA1C4C435D84DA6B43FF7B</GUID>
+      <GUID>B0839824C15AC3A6FDC491A86B27E8FA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1096,7 +1096,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\Control Packets\CONNECT\Validate Variable Header.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A70274CA9A3898B71837528B5E15F1B2</GUID>
+      <GUID>B42731F44A221230A61E64F1A1A689F8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1635,7 +1635,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\Control Packets\ControlPacket\Write Variable Header (Bytes).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>92661A40FDB08D73286D36E4D35421F8</GUID>
+      <GUID>A17953BB61EE0447DE31046EB81E2442</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1670,7 +1670,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\Control Packets\DISCONNECT\Create DISCONNECT Packet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E48308922BE06F12BAB318887CAC0852</GUID>
+      <GUID>C8C53744668BC4A212E59A973EB6D094</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1705,7 +1705,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\Control Packets\PINGREQ\Create PINGREQ Packet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3AC16DE9EA2EB65F375ABBED8281D665</GUID>
+      <GUID>B5A5CAC76BAE529310FBFDF71584B743</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1740,7 +1740,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\Control Packets\PINGRESP\Create PINGRESP Packet.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1334AFB924AE67C36F4F315A9E25511D</GUID>
+      <GUID>097D49794F72D755C5A11BBDA2C83A50</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1803,7 +1803,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\Control Packets\PUBACK\Validate Fixed Header.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6B9A3685E76CB22F76C727D0903F47D2</GUID>
+      <GUID>2D3B7955A4E9C3B33ED652E5668CF4ED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1866,7 +1866,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\Control Packets\PUBCOMP\Validate Fixed Header.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>41879CC3EC62CEECFC7251B4480BD200</GUID>
+      <GUID>282ADBE4FCC6155489C68F4D292E92F5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2055,7 +2055,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\Control Packets\PUBLISH\Validate Variable Header.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A58001CA58FF2599749292EB7FE1B0A3</GUID>
+      <GUID>15F87D89C0AE7420C9789A657E903258</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2132,7 +2132,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\Control Packets\PUBREC\Validate Fixed Header.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>31897CB18A73F7F7F20902E9B3862CEB</GUID>
+      <GUID>A35C3F5EC1B8395B0BED7AAA2B9B2CA9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2209,7 +2209,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\Control Packets\PUBREL\Validate Fixed Header.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CC7E9AE96B0242B1C4C3CD463839B28E</GUID>
+      <GUID>37147B723310C294CFD9ACBD277A34AC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2314,7 +2314,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\Control Packets\SUBACK\hasPacketIdentifier.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>65275AAE781927CA5D3137FB0B34461F</GUID>
+      <GUID>91F40E33A5A90A470E618FF10D0DA23C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2447,7 +2447,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\Control Packets\SUBSCRIBE\Validate Fixed Header.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>623F6FC49CDF030CC97D9D709186589E</GUID>
+      <GUID>9538A1AEBBE316C30F1254FF1BB1C85E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2510,7 +2510,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\Control Packets\UNSUBACK\Validate Fixed Header.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F07099CFB40EA04BF7A1E9B18F669199</GUID>
+      <GUID>101FC17F9A685DD37BAF6E2FF3BB512E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -2643,7 +2643,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\Control Packets\UNSUBSCRIBE\Validate Fixed Header.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8FA9910A69E913C4FF15DA3A16954A61</GUID>
+      <GUID>9A331835EC8E940057EA728CC1C1BDEF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

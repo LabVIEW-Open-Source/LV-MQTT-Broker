@@ -98,6 +98,9 @@
 			</Item>
 			<Item Name="GetServerRef.vi" Type="VI" URL="../Requirements Coverage/GetServerRef.vi"/>
 		</Item>
+		<Item Name="Manual Development Tests" Type="Folder">
+			<Item Name="Test TCPConnection Process Kill.vi" Type="VI" URL="../Manual Dev Tests/Test TCPConnection Process Kill.vi"/>
+		</Item>
 		<Item Name="Requirement Coverage.vi" Type="VI" URL="../Requirement Coverage.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -525,7 +528,6 @@
 			<Item Name="UNSUBACK.lvclass" Type="LVClass" URL="../../source/Control Packets/UNSUBACK/UNSUBACK.lvclass"/>
 			<Item Name="UNSUBSCRIBE.lvclass" Type="LVClass" URL="../../source/Control Packets/UNSUBSCRIBE/UNSUBSCRIBE.lvclass"/>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
-			<Item Name="PINGREQ.lvclass" Type="LVClass" URL="../../source/Control Packets/PINGREC/PINGREQ.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
