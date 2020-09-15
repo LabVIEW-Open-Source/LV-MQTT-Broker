@@ -335,7 +335,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107825152</Property>
 	</Item>
-	<Item Name="process.vi" Type="VI" URL="../../Server/Server class/process.vi">
+	<Item Name="process.vi" Type="VI" URL="../process.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$D!!!!"Q!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!!1!#!!-4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!]1(!!(A!!*2&amp;.5625)&amp;.F=H:F=CZM&gt;GRJ9B&amp;.56258U*B=W5O&lt;(:D&lt;'&amp;T=Q!-46&amp;56&amp;^#98.F)'FO!!"5!0!!$!!!!!!!!!!!!!!!!!!!!!!!"!!!!!!!"1-!!(A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!!!!"!!9!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>

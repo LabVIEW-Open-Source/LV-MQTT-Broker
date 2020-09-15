@@ -96,6 +96,9 @@
 				<Item Name="Test MQTT-4.7.3-3.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.3-3.vi"/>
 				<Item Name="Test MQTT-4.7.3-4.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-4.7.3-4.vi"/>
 			</Item>
+			<Item Name="Section 7" Type="Folder">
+				<Item Name="Test MQTT-7.1.2-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-7.1.2-1.vi"/>
+			</Item>
 			<Item Name="GetServerRef.vi" Type="VI" URL="../Requirements Coverage/GetServerRef.vi"/>
 		</Item>
 		<Item Name="Manual Development Tests" Type="Folder">
