@@ -4,6 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="TCPConnection.lvclass" Type="LVClass" URL="../../MQTT_Base/Connection/TCPConnection.lvclass"/>
-	<Item Name="TCPConnectionHandler.lvclass" Type="LVClass" URL="../../Server/ConnectionHandler/TCPConnectionHandler.lvclass"/>
+	<Item Name="TCPConnection.lvclass" Type="LVClass" URL="../Connection/TCPConnection.lvclass"/>
 </Library>
