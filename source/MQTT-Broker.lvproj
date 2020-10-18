@@ -15,14 +15,14 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test Server.vi" Type="VI" URL="../Test Server.vi"/>
 		<Item Name="Test HighFrequency Client Connection.vi" Type="VI" URL="../Test HighFrequency Client Connection.vi"/>
+		<Item Name="Test Simple Connection.vi" Type="VI" URL="../MQTT_Connection/Test Simple Connection.vi"/>
+		<Item Name="Test Local Queue Connection.vi" Type="VI" URL="../Test Local Queue Connection.vi"/>
 		<Item Name="MQTT Base.lvlib" Type="Library" URL="../MQTT_Base/MQTT Base.lvlib"/>
 		<Item Name="MQTT Client.lvlib" Type="Library" URL="../Client/MQTT Client.lvlib"/>
 		<Item Name="MQTT Server.lvlib" Type="Library" URL="../Server/MQTT Server.lvlib"/>
 		<Item Name="MQTT_Connection.lvlib" Type="Library" URL="../MQTT_Connection/MQTT_Connection.lvlib"/>
 		<Item Name="MQTT_TCP.lvlib" Type="Library" URL="../MQTT_TCP/MQTT_TCP.lvlib"/>
 		<Item Name="MQTT_Queue.lvlib" Type="Library" URL="../MQTT_LocalQueue/MQTT_Queue.lvlib"/>
-		<Item Name="Test Simple Connection.vi" Type="VI" URL="../MQTT_Connection/Test Simple Connection.vi"/>
-		<Item Name="Test Local Queue Connection.vi" Type="VI" URL="../Test Local Queue Connection.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
