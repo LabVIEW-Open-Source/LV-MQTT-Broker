@@ -12,25 +12,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Individual Packet Tests" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Test CONNECT packet.vi" Type="VI" URL="../Individual Packet Tests/Test CONNECT packet.vi"/>
-			<Item Name="Test CONNACK packet.vi" Type="VI" URL="../Individual Packet Tests/Test CONNACK packet.vi"/>
-			<Item Name="Test PUBLISH packet.vi" Type="VI" URL="../Individual Packet Tests/Test PUBLISH packet.vi"/>
-			<Item Name="Test PUBACK packet.vi" Type="VI" URL="../Individual Packet Tests/Test PUBACK packet.vi"/>
-			<Item Name="Test PUBREL packet.vi" Type="VI" URL="../Individual Packet Tests/Test PUBREL packet.vi"/>
-			<Item Name="Test PUBREC packet.vi" Type="VI" URL="../Individual Packet Tests/Test PUBREC packet.vi"/>
-			<Item Name="Test PUBCOMP packet.vi" Type="VI" URL="../Individual Packet Tests/Test PUBCOMP packet.vi"/>
-			<Item Name="Test SUBSCRIBE packet.vi" Type="VI" URL="../Individual Packet Tests/Test SUBSCRIBE packet.vi"/>
-			<Item Name="Test SUBACK packet.vi" Type="VI" URL="../Individual Packet Tests/Test SUBACK packet.vi"/>
-			<Item Name="Test UNSUBSCRIBE packet.vi" Type="VI" URL="../Individual Packet Tests/Test UNSUBSCRIBE packet.vi"/>
-			<Item Name="Test UNSUBACK packet.vi" Type="VI" URL="../Individual Packet Tests/Test UNSUBACK packet.vi"/>
-			<Item Name="Test PINGREQ packet.vi" Type="VI" URL="../Individual Packet Tests/Test PINGREQ packet.vi"/>
-			<Item Name="Test PINGRESP packet.vi" Type="VI" URL="../Individual Packet Tests/Test PINGRESP packet.vi"/>
-			<Item Name="Test DISCONNECT packet.vi" Type="VI" URL="../Individual Packet Tests/Test DISCONNECT packet.vi"/>
-			<Item Name="Test Factory.vi" Type="VI" URL="../Test Factory.vi"/>
-			<Item Name="Test Packet Identifier.vi" Type="VI" URL="../Test Packet Identifier.vi"/>
-		</Item>
 		<Item Name="Requirements Coverage" Type="Folder">
 			<Item Name="Section 1" Type="Folder">
 				<Item Name="Test MQTT-1.5.3-1.vi" Type="VI" URL="../Requirements Coverage/Test MQTT-1.5.3-1.vi"/>
@@ -154,7 +135,6 @@
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
@@ -192,6 +172,7 @@
 				<Item Name="OpenDescriptor.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/TypeDescriptor/OpenDescriptor.lvlib"/>
 				<Item Name="OpenVariant.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/Variant/OpenVariant.lvlib"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
+				<Item Name="MQTT_Control_Packets.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/MQTT_Control_Packets.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>
@@ -514,22 +495,7 @@
 				<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
 				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
 			</Item>
-			<Item Name="CONNACK.lvclass" Type="LVClass" URL="../../source/Control Packets/CONNACK/CONNACK.lvclass"/>
-			<Item Name="CONNECT.lvclass" Type="LVClass" URL="../../source/Control Packets/CONNECT/CONNECT.lvclass"/>
-			<Item Name="ControlPacket.lvclass" Type="LVClass" URL="../../source/Control Packets/ControlPacket/ControlPacket.lvclass"/>
-			<Item Name="DISCONNECT.lvclass" Type="LVClass" URL="../../source/Control Packets/DISCONNECT/DISCONNECT.lvclass"/>
 			<Item Name="MQTT Server.lvlib" Type="Library" URL="../../source/Server/MQTT Server.lvlib"/>
-			<Item Name="PINGREQ.lvclass" Type="LVClass" URL="../../source/Control Packets/PINGREQ/PINGREQ.lvclass"/>
-			<Item Name="PINGRESP.lvclass" Type="LVClass" URL="../../source/Control Packets/PINGRESP/PINGRESP.lvclass"/>
-			<Item Name="PUBACK.lvclass" Type="LVClass" URL="../../source/Control Packets/PUBACK/PUBACK.lvclass"/>
-			<Item Name="PUBCOMP.lvclass" Type="LVClass" URL="../../source/Control Packets/PUBCOMP/PUBCOMP.lvclass"/>
-			<Item Name="PUBLISH.lvclass" Type="LVClass" URL="../../source/Control Packets/PUBLISH/PUBLISH.lvclass"/>
-			<Item Name="PUBREC.lvclass" Type="LVClass" URL="../../source/Control Packets/PUBREC/PUBREC.lvclass"/>
-			<Item Name="PUBREL.lvclass" Type="LVClass" URL="../../source/Control Packets/PUBREL/PUBREL.lvclass"/>
-			<Item Name="SUBACK.lvclass" Type="LVClass" URL="../../source/Control Packets/SUBACK/SUBACK.lvclass"/>
-			<Item Name="SUBSCRIBE.lvclass" Type="LVClass" URL="../../source/Control Packets/SUBSCRIBE/SUBSCRIBE.lvclass"/>
-			<Item Name="UNSUBACK.lvclass" Type="LVClass" URL="../../source/Control Packets/UNSUBACK/UNSUBACK.lvclass"/>
-			<Item Name="UNSUBSCRIBE.lvclass" Type="LVClass" URL="../../source/Control Packets/UNSUBSCRIBE/UNSUBSCRIBE.lvclass"/>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
