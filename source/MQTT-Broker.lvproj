@@ -20,8 +20,8 @@
 		<Item Name="MQTT Server.lvlib" Type="Library" URL="../Server/MQTT Server.lvlib"/>
 		<Item Name="MQTT_Connection.lvlib" Type="Library" URL="../MQTT_Connection/MQTT_Connection.lvlib"/>
 		<Item Name="MQTT_TCP.lvlib" Type="Library" URL="../MQTT_TCP/MQTT_TCP.lvlib"/>
-		<Item Name="Test Simple Connection.vi" Type="VI" URL="../MQTT_Connection/Test Simple Connection.vi"/>
 		<Item Name="MQTT_Queue.lvlib" Type="Library" URL="../MQTT_LocalQueue/MQTT_Queue.lvlib"/>
+		<Item Name="Test Simple Connection.vi" Type="VI" URL="../MQTT_Connection/Test Simple Connection.vi"/>
 		<Item Name="Test Local Queue Connection.vi" Type="VI" URL="../Test Local Queue Connection.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -39,9 +39,7 @@
 				<Item Name="MQTT_Control_Packets.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/MQTT_Control_Packets.lvlib"/>
 				<Item Name="MQTT_Control_Packets_50.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/MQTT_Control_Packets_50.lvlib"/>
 				<Item Name="Default MQTT Packet (Empty).vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/ControlPacket/Default MQTT Packet (Empty).vi"/>
-			</Item>
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
+				<Item Name="RandomStringGenerator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Unicity/RandomStringGenerator/RandomStringGenerator.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
