@@ -15,7 +15,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test Server.vi" Type="VI" URL="../Test Server.vi"/>
 		<Item Name="Test HighFrequency Client Connection.vi" Type="VI" URL="../Test HighFrequency Client Connection.vi"/>
-		<Item Name="Test Simple Connection.vi" Type="VI" URL="../MQTT_Connection/Test Simple Connection.vi"/>
+		<Item Name="Test Simple Connection.vi" Type="VI" URL="../Test Simple Connection.vi"/>
 		<Item Name="Test Local Queue Connection.vi" Type="VI" URL="../Test Local Queue Connection.vi"/>
 		<Item Name="Test WebSockets Connection.vi" Type="VI" URL="../Test WebSockets Connection.vi"/>
 		<Item Name="Test HIveMQ WebSockets Connection.vi" Type="VI" URL="../Test HIveMQ WebSockets Connection.vi"/>
