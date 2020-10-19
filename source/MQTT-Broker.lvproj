@@ -13,19 +13,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Test Server.vi" Type="VI" URL="../Test Server.vi"/>
-		<Item Name="Test HighFrequency Client Connection.vi" Type="VI" URL="../Test HighFrequency Client Connection.vi"/>
-		<Item Name="Test Simple Connection.vi" Type="VI" URL="../Test Simple Connection.vi"/>
-		<Item Name="Test Local Queue Connection.vi" Type="VI" URL="../Test Local Queue Connection.vi"/>
-		<Item Name="Test WebSockets Connection.vi" Type="VI" URL="../Test WebSockets Connection.vi"/>
-		<Item Name="Test HIveMQ WebSockets Connection.vi" Type="VI" URL="../Test HIveMQ WebSockets Connection.vi"/>
-		<Item Name="MQTT Base.lvlib" Type="Library" URL="../MQTT_Base/MQTT Base.lvlib"/>
-		<Item Name="MQTT Client.lvlib" Type="Library" URL="../MQTT_Client/MQTT Client.lvlib"/>
 		<Item Name="MQTT Server.lvlib" Type="Library" URL="../MQTT_Server/MQTT Server.lvlib"/>
-		<Item Name="MQTT_Connection.lvlib" Type="Library" URL="../MQTT_Connection/MQTT_Connection.lvlib"/>
-		<Item Name="MQTT_TCP.lvlib" Type="Library" URL="../MQTT_TCP/MQTT_TCP.lvlib"/>
-		<Item Name="MQTT_Queue.lvlib" Type="Library" URL="../MQTT_LocalQueue/MQTT_Queue.lvlib"/>
-		<Item Name="MQTT_Websockets.lvlib" Type="Library" URL="../MQTT_Websockets/MQTT_Websockets.lvlib"/>
+		<Item Name="DropVI_MQTT Server.vi" Type="VI" URL="../MQTT_Server/DropVI_MQTT Server.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -34,18 +23,24 @@
 				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
 				<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
 				<Item Name="MD5Checksum string.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum string.vi"/>
-				<Item Name="OpenDescriptor.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/TypeDescriptor/OpenDescriptor.lvlib"/>
-				<Item Name="OpenVariant.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/Variant/OpenVariant.lvlib"/>
 				<Item Name="Serializer.FlattenedString.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Serializer/Serializer.FlattenedString/Serializer.FlattenedString.lvclass"/>
 				<Item Name="Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Serializer/Serializer/Serializer.lvclass"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="MQTT_Control_Packets.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/MQTT_Control_Packets.lvlib"/>
 				<Item Name="MQTT_Control_Packets_50.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/MQTT_Control_Packets_50.lvlib"/>
 				<Item Name="Default MQTT Packet (Empty).vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/ControlPacket/Default MQTT Packet (Empty).vi"/>
-				<Item Name="RandomStringGenerator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Unicity/RandomStringGenerator/RandomStringGenerator.lvclass"/>
-				<Item Name="WebSockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/MediaMongrels Ltd/WebSockets/WebSockets/WebSockets.lvlib"/>
+				<Item Name="MQTT_Connection.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Connection/MQTT_Connection/MQTT_Connection.lvlib"/>
+				<Item Name="MQTT Base.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Connection/MQTT_Base/MQTT Base.lvlib"/>
+				<Item Name="MQTT Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/MQTT Client.lvlib"/>
 				<Item Name="Sockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/MediaMongrels Ltd/WebSockets/Sockets/Sockets.lvlib"/>
+				<Item Name="WebSockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/MediaMongrels Ltd/WebSockets/WebSockets/WebSockets.lvlib"/>
+				<Item Name="MQTT_Websockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Websockets Connection/MQTT_Websockets/MQTT_Websockets.lvlib"/>
 				<Item Name="Join Strings.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Join Strings.vi"/>
+				<Item Name="MQTT_Queue.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT LocalQueue Connection/MQTT_LocalQueue/MQTT_Queue.lvlib"/>
+				<Item Name="RandomStringGenerator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Unicity/RandomStringGenerator/RandomStringGenerator.lvclass"/>
+				<Item Name="MQTT_TCP.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT TCP Connection/MQTT_TCP/MQTT_TCP.lvlib"/>
+				<Item Name="OpenDescriptor.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/TypeDescriptor/OpenDescriptor.lvlib"/>
+				<Item Name="OpenVariant.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/Variant/OpenVariant.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
