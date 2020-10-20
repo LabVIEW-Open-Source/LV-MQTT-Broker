@@ -6,6 +6,8 @@ https://github.com/francois-normandin/message-exchange-patterns
 You can find a PDF copy of the presentation in the release page:
 https://github.com/francois-normandin/message-exchange-patterns/releases
 
+The full presentation is accessible from the LabVIEW Wiki:
+https://labviewwiki.org/wiki/NIWeek_2019/Message_Exchange_Patterns_and_Tools_for_Distributed_Systems
 
 # LV-MQTT-Broker
 Native LabVIEW MQTT Broker Server
