@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="13008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -84,6 +85,12 @@
 		</Item>
 		<Item Name="Manual Development Tests" Type="Folder">
 			<Item Name="Test TCPConnection Process Kill.vi" Type="VI" URL="../Manual Dev Tests/Test TCPConnection Process Kill.vi"/>
+			<Item Name="Test HighFrequency Client Connection.vi" Type="VI" URL="../Manual Dev Tests/Test HighFrequency Client Connection.vi"/>
+			<Item Name="Test HIveMQ WebSockets Connection.vi" Type="VI" URL="../Manual Dev Tests/Test HIveMQ WebSockets Connection.vi"/>
+			<Item Name="Test Local Queue Connection.vi" Type="VI" URL="../Manual Dev Tests/Test Local Queue Connection.vi"/>
+			<Item Name="Test Server.vi" Type="VI" URL="../Manual Dev Tests/Test Server.vi"/>
+			<Item Name="Test Simple Connection.vi" Type="VI" URL="../Manual Dev Tests/Test Simple Connection.vi"/>
+			<Item Name="Test WebSockets Connection.vi" Type="VI" URL="../Manual Dev Tests/Test WebSockets Connection.vi"/>
 		</Item>
 		<Item Name="Requirement Coverage.vi" Type="VI" URL="../Requirement Coverage.vi"/>
 		<Item Name="MQTT Server.lvlib" Type="Library" URL="../../source/MQTT_Server/MQTT Server.lvlib"/>
@@ -170,7 +177,6 @@
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="MQTT_Control_Packets.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/MQTT_Control_Packets.lvlib"/>
-				<Item Name="MQTT_Connection.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Connection/MQTT_Connection/MQTT_Connection.lvlib"/>
 				<Item Name="MQTT_TCP.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT TCP Connection/MQTT_TCP/MQTT_TCP.lvlib"/>
 				<Item Name="MQTT Base.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Connection/MQTT_Base/MQTT Base.lvlib"/>
 				<Item Name="Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Serializer/Serializer/Serializer.lvclass"/>
@@ -181,6 +187,11 @@
 				<Item Name="OpenVariant.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/Variant/OpenVariant.lvlib"/>
 				<Item Name="MQTT_Queue.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT LocalQueue Connection/MQTT_LocalQueue/MQTT_Queue.lvlib"/>
 				<Item Name="RandomStringGenerator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Unicity/RandomStringGenerator/RandomStringGenerator.lvclass"/>
+				<Item Name="Sockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/MediaMongrels Ltd/WebSockets/Sockets/Sockets.lvlib"/>
+				<Item Name="WebSockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/MediaMongrels Ltd/WebSockets/WebSockets/WebSockets.lvlib"/>
+				<Item Name="MQTT_Websockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Websockets Connection/MQTT_Websockets/MQTT_Websockets.lvlib"/>
+				<Item Name="Join Strings.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Join Strings.vi"/>
+				<Item Name="MQTT_Connection.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Connection/MQTT_Connection/MQTT_Connection.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>
