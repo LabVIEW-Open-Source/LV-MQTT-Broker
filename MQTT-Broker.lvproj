@@ -531,47 +531,7 @@
 				<Item Name="Valid Path - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Valid Path - Array__ogtk.vi"/>
 				<Item Name="Valid Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Valid Path__ogtk.vi"/>
 			</Item>
-			<Item Name="Server.ctl" Type="VI" URL="../source/MQTT_Server/Server class/Server.lvclass/Server.ctl"/>
-			<Item Name="Read Server Public Events.vi" Type="VI" URL="../source/MQTT_Server/Server class/Read Server Public Events.vi"/>
-			<Item Name="Create Server.vi" Type="VI" URL="../source/MQTT_Server/Server class/Create Server.vi"/>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
-			<Item Name="Read Payload.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/ControlPacket/Read Payload.vi"/>
-			<Item Name="Create PUBLISH Packet (Client).vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/PUBLISH/Create PUBLISH Packet (Client).vi"/>
-			<Item Name="Get ControlPacket Bytes.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/ControlPacket/Get ControlPacket Bytes.vi"/>
-			<Item Name="Append Incoming Bytes.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/ControlPacket/Append Incoming Bytes.vi"/>
-			<Item Name="ConnectFlags -- cluster.ctl" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/CONNECT/ConnectFlags -- cluster.ctl"/>
-			<Item Name="QualityOfService -- enum.ctl" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/ControlPacket/QualityOfService -- enum.ctl"/>
-			<Item Name="Create CONNECT Packet.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/CONNECT/Create CONNECT Packet.vi"/>
-			<Item Name="Create DISCONNECT Packet.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/DISCONNECT/Create DISCONNECT Packet.vi"/>
-			<Item Name="Connection.lvclass" Type="LVClass" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Connection/MQTT_Connection/Connection/Connection.lvclass"/>
-			<Item Name="Configure TCP Connection.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT TCP Connection/MQTT_TCP/Connection/Configure TCP Connection.vi"/>
-			<Item Name="Start.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Connection/MQTT_Base/Base Class/Start.vi"/>
-			<Item Name="Stop.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Connection/MQTT_Base/Base Class/Stop.vi"/>
-			<Item Name="Destroy.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Connection/MQTT_Base/Base Class/Destroy.vi"/>
-			<Item Name="Connect.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Connection/MQTT_Connection/Connection/Connect.vi"/>
-			<Item Name="Write.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Connection/MQTT_Connection/Connection/Write.vi"/>
-			<Item Name="Read.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Connection/MQTT_Connection/Connection/Read.vi"/>
-			<Item Name="Close Connection.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Connection/MQTT_Connection/Connection/Close Connection.vi"/>
-			<Item Name="Create PUBLISH Packet (Server).vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/PUBLISH/Create PUBLISH Packet (Server).vi"/>
-			<Item Name="Subscribe (SingleTopic).vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Connection/MQTT_Base/Base Class/Subscribe (SingleTopic).vi"/>
-			<Item Name="Unsubscribe (SingleTopic).vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Connection/MQTT_Base/Base Class/Unsubscribe (SingleTopic).vi"/>
-			<Item Name="Connect Return Code -- enum.ctl" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/CONNACK/Connect Return Code -- enum.ctl"/>
-			<Item Name="CONNACK.lvclass" Type="LVClass" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/CONNACK/CONNACK.lvclass"/>
-			<Item Name="Read Return Code.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/CONNACK/Read Return Code.vi"/>
-			<Item Name="ControlPacket.lvclass" Type="LVClass" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/ControlPacket/ControlPacket.lvclass"/>
-			<Item Name="PUBLISH.lvclass" Type="LVClass" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/PUBLISH/PUBLISH.lvclass"/>
-			<Item Name="isConnected.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Connection/MQTT_Connection/Connection/isConnected.vi"/>
-			<Item Name="ElapsedTime.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Connection/MQTT_Base/Base Class/ElapsedTime.vi"/>
-			<Item Name="Decode Publish Package.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Connection/MQTT_Base/Base Class/Decode Publish Package.vi"/>
-			<Item Name="Configure Websockets Connection.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Websockets Connection/MQTT_Websockets/Connection/Configure Websockets Connection.vi"/>
-			<Item Name="Configure Queue Connection.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT LocalQueue Connection/MQTT_LocalQueue/Connection/Configure Queue Connection.vi"/>
-			<Item Name="Create Listener.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Connection/MQTT_Connection/Connection/Create Listener.vi"/>
-			<Item Name="ListenForConnection.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Connection/MQTT_Connection/Connection/ListenForConnection.vi"/>
-			<Item Name="CONNECT.lvclass" Type="LVClass" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/CONNECT/CONNECT.lvclass"/>
-			<Item Name="Read Packet Type.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/ControlPacket/Read Packet Type.vi"/>
-			<Item Name="getTopicName.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/PUBLISH/getTopicName.vi"/>
-			<Item Name="MQTT 3.1.1 Constant.vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/MQTT_311/MQTT 3.1.1 Constant.vi"/>
-			<Item Name="Default MQTT Packet (Empty).vi" Type="VI" URL="../lv-venv/lv.lib/vi.lib/LabVIEW Open Source Project/MQTT Control Packets/Control Packets/ControlPacket/Default MQTT Packet (Empty).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
