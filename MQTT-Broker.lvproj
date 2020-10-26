@@ -81,6 +81,8 @@
 				</Item>
 				<Item Name="Section 6" Type="Folder">
 					<Item Name="Test MQTT-6.0.0-1.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-6.0.0-1.vi"/>
+					<Item Name="Test MQTT-6.0.0-3.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-6.0.0-3.vi"/>
+					<Item Name="Test MQTT-6.0.0-4.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-6.0.0-4.vi"/>
 				</Item>
 				<Item Name="Section 7" Type="Folder">
 					<Item Name="Test MQTT-7.1.2-1.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-7.1.2-1.vi"/>
