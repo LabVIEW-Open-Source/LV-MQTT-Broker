@@ -78,6 +78,7 @@
 					<Item Name="Test MQTT-4.7.3-2.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-4.7.3-2.vi"/>
 					<Item Name="Test MQTT-4.7.3-3.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-4.7.3-3.vi"/>
 					<Item Name="Test MQTT-4.7.3-4.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-4.7.3-4.vi"/>
+					<Item Name="Test MQTT-4.8.0-1.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-4.8.0-1.vi"/>
 				</Item>
 				<Item Name="Section 6" Type="Folder">
 					<Item Name="Test MQTT-6.0.0-1.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-6.0.0-1.vi"/>
