@@ -217,16 +217,7 @@
 				<Item Name="MQTT_Websockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Websockets Connection/MQTT_Websockets/MQTT_Websockets.lvlib"/>
 				<Item Name="Join Strings.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Join Strings.vi"/>
 				<Item Name="MQTT_TCP.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT TCP Connection/MQTT_TCP/MQTT_TCP.lvlib"/>
-				<Item Name="Create MQTT Client.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/Create MQTT Client.vi"/>
-				<Item Name="Connect to Server.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/Connect to Server.vi"/>
-				<Item Name="List Reserved IDs.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/List Reserved IDs.vi"/>
-				<Item Name="Client.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/Client.lvclass/Client.ctl"/>
-				<Item Name="Read Public Events.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/Read Public Events.vi"/>
-				<Item Name="Publish.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/Publish.vi"/>
-				<Item Name="Disconnect from Server.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/Disconnect from Server.vi"/>
-				<Item Name="SendPacket.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/SendPacket.vi"/>
-				<Item Name="isConnected.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/isConnected.vi"/>
-				<Item Name="Ping.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/Ping.vi"/>
+				<Item Name="MQTT Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/MQTT Client.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>
