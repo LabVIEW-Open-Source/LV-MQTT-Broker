@@ -25,6 +25,7 @@
 					<Item Name="Test MQTT-2.2.2-2.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-2.2.2-2.vi"/>
 					<Item Name="Test MQTT-2.3.1-1.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-2.3.1-1.vi"/>
 					<Item Name="Test MQTT-2.3.1-2.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-2.3.1-2.vi"/>
+					<Item Name="Test MQTT-2.3.1-3.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-2.3.1-3.vi"/>
 					<Item Name="Test MQTT-2.3.1-5.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-2.3.1-5.vi"/>
 					<Item Name="Test MQTT-2.3.1-6.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-2.3.1-6.vi"/>
 					<Item Name="Test MQTT-2.3.1-7.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-2.3.1-7.vi"/>
@@ -209,7 +210,6 @@
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
-				<Item Name="MQTT Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/MQTT Client.lvlib"/>
 				<Item Name="MQTT_Queue.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT LocalQueue Connection/MQTT_LocalQueue/MQTT_Queue.lvlib"/>
 				<Item Name="RandomStringGenerator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Unicity/RandomStringGenerator/RandomStringGenerator.lvclass"/>
 				<Item Name="Sockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/MediaMongrels Ltd/WebSockets/Sockets/Sockets.lvlib"/>
@@ -217,6 +217,16 @@
 				<Item Name="MQTT_Websockets.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Websockets Connection/MQTT_Websockets/MQTT_Websockets.lvlib"/>
 				<Item Name="Join Strings.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Join Strings.vi"/>
 				<Item Name="MQTT_TCP.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT TCP Connection/MQTT_TCP/MQTT_TCP.lvlib"/>
+				<Item Name="Create MQTT Client.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/Create MQTT Client.vi"/>
+				<Item Name="Connect to Server.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/Connect to Server.vi"/>
+				<Item Name="List Reserved IDs.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/List Reserved IDs.vi"/>
+				<Item Name="Client.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/Client.lvclass/Client.ctl"/>
+				<Item Name="Read Public Events.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/Read Public Events.vi"/>
+				<Item Name="Publish.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/Publish.vi"/>
+				<Item Name="Disconnect from Server.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/Disconnect from Server.vi"/>
+				<Item Name="SendPacket.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/SendPacket.vi"/>
+				<Item Name="isConnected.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/isConnected.vi"/>
+				<Item Name="Ping.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/MQTT Client/Client class/Ping.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>
