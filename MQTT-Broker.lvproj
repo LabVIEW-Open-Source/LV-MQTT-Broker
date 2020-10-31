@@ -71,6 +71,8 @@
 					<Item Name="Test MQTT-3.14.4-1.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-3.14.4-1.vi"/>
 				</Item>
 				<Item Name="Section 4" Type="Folder">
+					<Item Name="Test MQTT-4.3.2-1.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-4.3.2-1.vi"/>
+					<Item Name="Test MQTT-4.3.3-1.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-4.3.3-1.vi"/>
 					<Item Name="Test MQTT-4.7.1-1.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-4.7.1-1.vi"/>
 					<Item Name="Test MQTT-4.7.1-2.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-4.7.1-2.vi"/>
 					<Item Name="Test MQTT-4.7.1-3.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-4.7.1-3.vi"/>
@@ -106,8 +108,6 @@
 		</Item>
 		<Item Name="MQTT Server.lvlib" Type="Library" URL="../source/MQTT Server.lvlib"/>
 		<Item Name="DropVI_MQTT Server.vi" Type="VI" URL="../source/DropVI_MQTT Server.vi"/>
-		<Item Name="Test MQTT-4.3.2-1.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-4.3.2-1.vi"/>
-		<Item Name="Test MQTT-4.3.3-1.vi" Type="VI" URL="../Unit Tests/Requirements Coverage/Test MQTT-4.3.3-1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">1</Property>
