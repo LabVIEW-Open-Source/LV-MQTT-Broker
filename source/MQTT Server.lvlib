@@ -10,5 +10,10 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Session.Server.lvclass" Type="LVClass" URL="../Session.Server/Session.Server.lvclass"/>
+	<Item Name="_Subscription.lvclass" Type="LVClass" URL="../Subscription/_Subscription.lvclass"/>
+	<Item Name="_TopicFilter.lvclass" Type="LVClass" URL="../TopicFilter/_TopicFilter.lvclass"/>
 	<Item Name="ConnectionHandler.lvclass" Type="LVClass" URL="../ConnectionHandler/ConnectionHandler.lvclass"/>
+	<Item Name="PacketCollection.lvclass" Type="LVClass" URL="../PacketCollection/PacketCollection.lvclass">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 </Library>
