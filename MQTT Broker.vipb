@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-10-31 18:43:00" Creator="normandinf" Comments="" ID="aaf46140ab8bbf546e7899ae430242ed">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-11-01 07:33:35" Creator="normandinf" Comments="" ID="771419214bce8bf973667a4183bec876">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Broker</Package_File_Name>
-    <Library_Version>3.1.2.9</Library_Version>
+    <Library_Version>3.1.2.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -306,7 +306,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\DropVI_MQTT Server.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DF2009810B1D81B0FFD7AB709FEE89C5</GUID>
+      <GUID>EABD481B43DEBA417DF73B86854E5965</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
