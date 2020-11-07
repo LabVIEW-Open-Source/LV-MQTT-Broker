@@ -1,13 +1,3 @@
-# NI Week 2019 Presentation
-
-Demo code can be found here:
-https://github.com/francois-normandin/message-exchange-patterns
-
-You can find a PDF copy of the presentation in the release page:
-https://github.com/francois-normandin/message-exchange-patterns/releases
-
-The full presentation is accessible from the LabVIEW Wiki:
-https://labviewwiki.org/wiki/NIWeek_2019/Message_Exchange_Patterns_and_Tools_for_Distributed_Systems
 
 # LV-MQTT-Broker
 Native LabVIEW MQTT Broker Server
@@ -16,7 +6,9 @@ This project is an exercise in Test-Driven Development, which essentially means 
 
 For a fully compliant MQTT broker, 141 requirements (as listed in the OASIS specification) need to be satisfied. Those requirements have been added as issues. The list of currently supported features is found by filtering the issues to show only the "closed" issues.
 
-For example, release 0.1 features a functional client and broker but does not support QoS>0, retain messages, duplicate flag, wills or support for session persistency.
+# Documentation and Demos
+See the wiki for demos and presentation about this project's broker and client.
+https://github.com/LabVIEW-Open-Source/LV-MQTT-Broker/wiki
 
 # Compliance
 
