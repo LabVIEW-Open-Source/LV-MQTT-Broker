@@ -106,6 +106,7 @@
 			</Item>
 			<Item Name="Reported Issue Tests" Type="Folder">
 				<Item Name="161-Test QoS Repetition Bug.vi" Type="VI" URL="../Unit Tests/Manual Dev Tests/161-Test QoS Repetition Bug.vi"/>
+				<Item Name="162-Test QoS 2 Subscription.vi" Type="VI" URL="../Unit Tests/Manual Dev Tests/162-Test QoS 2 Subscription.vi"/>
 			</Item>
 			<Item Name="Requirement Coverage.vi" Type="VI" URL="../Unit Tests/Requirement Coverage.vi"/>
 		</Item>
@@ -556,7 +557,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
-			<Item Name="Run Tests in Active Project.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/project/Caraya/Run Tests in Active Project.vi"/>
+			<Item Name="Run Tests in Active Project.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2013/project/Caraya/Run Tests in Active Project.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
