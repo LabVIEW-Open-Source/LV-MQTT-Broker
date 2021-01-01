@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-12-12 19:15:06" Creator="normandinf" Comments="" ID="ab354f8753b088e3aceac7b46e8e55ef">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2021-01-01 13:20:28" Creator="normandinf" Comments="" ID="d1eaf5824cf0c40f2b551f5d16ca3ec3">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Broker</Package_File_Name>
-    <Library_Version>3.1.3.12</Library_Version>
+    <Library_Version>3.1.4.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -88,11 +88,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[Fix: 161] Repetition of publish packet in QoS &gt; 0 (MQTT Client package upgrade)
-
-- Fixed a unit test which failed after fixing CONNECT packet handling of length-prefixed password
-- Includes upgrade for MQTT Client and Control Packet Dependencies which fix a few bugs
-Please refer to https://github.com/LabVIEW-Open-Source/MQTT-Client and https://github.com/LabVIEW-Open-Source/LV-MQTT-Control-Packets for more info</Release_Notes>
+      <Release_Notes>[Fix: 162] Disabled the DUP resend feature for packets which affected QoS = 2. Feature is not yet unit tested and will be re-enabled only when tests demonstrate it works according to specification</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -298,7 +294,7 @@ Please refer to https://github.com/LabVIEW-Open-Source/MQTT-Client and https://g
         <Path>source\DropVI_MQTT Server.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>67BB9EBAE6152A7074B54F018A28CB1E</GUID>
+      <GUID>97770726023C86AB8968B1436CBD0980</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
