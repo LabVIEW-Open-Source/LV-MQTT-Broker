@@ -112,6 +112,7 @@
 		</Item>
 		<Item Name="MQTT Server.lvlib" Type="Library" URL="../source/MQTT Server.lvlib"/>
 		<Item Name="DropVI_MQTT Server.vi" Type="VI" URL="../source/DropVI_MQTT Server.vi"/>
+		<Item Name="DropVI_MQTT Server_Tracing.vi" Type="VI" URL="../source/DropVI_MQTT Server_Tracing.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">1</Property>
