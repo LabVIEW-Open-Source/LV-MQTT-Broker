@@ -16,4 +16,5 @@
 	<Item Name="PacketCollection.lvclass" Type="LVClass" URL="../PacketCollection/PacketCollection.lvclass">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="PacketTracer.lvclass" Type="LVClass" URL="../PacketTracer/PacketTracer.lvclass"/>
 </Library>

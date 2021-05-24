@@ -112,6 +112,7 @@
 		</Item>
 		<Item Name="MQTT Server.lvlib" Type="Library" URL="../source/MQTT Server.lvlib"/>
 		<Item Name="DropVI_MQTT Server.vi" Type="VI" URL="../source/DropVI_MQTT Server.vi"/>
+		<Item Name="DropVI_MQTT Server_Tracing.vi" Type="VI" URL="../source/DropVI_MQTT Server_Tracing.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">1</Property>
@@ -508,6 +509,7 @@
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
+				<Item Name="OpenConvert.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/Conversions/OpenConvert.lvlib"/>
 				<Item Name="OpenDescriptor.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/TypeDescriptor/OpenDescriptor.lvlib"/>
 				<Item Name="OpenSerializer.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/OpenSerializer/OpenSerializer.lvlib"/>
 				<Item Name="OpenVariant.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Data Manipulation/Variant/OpenVariant.lvlib"/>
@@ -557,7 +559,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
-			<Item Name="Run Tests in Active Project.vi" Type="VI" URL="../../../../Program Files (x86)/National Instruments/LabVIEW 2013/project/Caraya/Run Tests in Active Project.vi"/>
+			<Item Name="Run Tests in Active Project.vi" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2013/project/Caraya/Run Tests in Active Project.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
