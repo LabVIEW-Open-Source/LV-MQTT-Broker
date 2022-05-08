@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-05-08 11:23:04" Creator="normandinf" Comments="" ID="7c55926e9008be991d74f7192787625f">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-05-08 11:25:52" Creator="normandinf" Comments="" ID="ffe0f0e96ba5b804395e97c6f71acf4e">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Broker</Package_File_Name>
-    <Library_Version>4.0.0.15</Library_Version>
+    <Library_Version>4.0.0.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -22,6 +22,8 @@
       <External_Dependencies>labview_open_source_project_lib_connection &gt;= 1.0.1.6</External_Dependencies>
       <External_Dependencies>labview_open_source_project_lib_mqtt_connection &gt;= 4.0.0.25</External_Dependencies>
       <External_Dependencies>labview_open_source_project_lib_mqtt_control_packets &gt;= 3.1.3.9</External_Dependencies>
+      <Additional_External_Dependencies>labview_open_source_project_lib_mqtt_localqueue_connection &gt;=4.0.0.5</Additional_External_Dependencies>
+      <Additional_External_Dependencies>labview_open_source_project_lib_mqtt_tcp_connection &gt;=4.0.0.7</Additional_External_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_data_manipulation-1.5.0.15</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_serializer-1.2.1.16</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_project_lib_connection-1.0.1.6</Direct_Dependencies>
