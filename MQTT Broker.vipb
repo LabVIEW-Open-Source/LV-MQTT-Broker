@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-05-08 10:47:22" Creator="normandinf" Comments="" ID="1df5d485365cca12e7024e947b4b098c">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-05-08 11:23:04" Creator="normandinf" Comments="" ID="7c55926e9008be991d74f7192787625f">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Broker</Package_File_Name>
     <Library_Version>4.0.0.15</Library_Version>
@@ -90,7 +90,9 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>-Updated the code base to common Connection base class
+      <Release_Notes>[Feature: 173] Addition of Get NbConnections accessor method
+
+-Updated the code base to common Connection base class
 -Constructor exposes option to support session storage (defaults to True)
 -Exposed protected methods for inspection of Subscriptions, Sessions and ClientIDs
 </Release_Notes>
@@ -552,7 +554,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>&lt;vi.lib&gt;\LabVIEW Open Source Project\MQTT Connection\MQTT_Base\Base Class\Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D48482395D429D0404C4598800F58F87</GUID>
+      <GUID>142321E26F61E06BBBE08F906EEBC0A5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -783,7 +785,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\Subscription\Write Topic Filter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D201A2F4CB9E569C99E511A76DF91A9</GUID>
+      <GUID>AC44B0A7A976231D83751119E1FB2635</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -916,7 +918,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\TopicFilter\Write Topic Filter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>750381BDBD01B21A12C9D118E514A2F3</GUID>
+      <GUID>C5CFBE0B3FA1B82D0045509D8ABD6CFD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
