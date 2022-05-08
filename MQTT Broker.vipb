@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-05-08 10:47:22" Creator="normandinf" Comments="" ID="1df5d485365cca12e7024e947b4b098c">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-05-08 11:25:52" Creator="normandinf" Comments="" ID="ffe0f0e96ba5b804395e97c6f71acf4e">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Broker</Package_File_Name>
-    <Library_Version>4.0.0.15</Library_Version>
+    <Library_Version>4.0.0.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -22,6 +22,8 @@
       <External_Dependencies>labview_open_source_project_lib_connection &gt;= 1.0.1.6</External_Dependencies>
       <External_Dependencies>labview_open_source_project_lib_mqtt_connection &gt;= 4.0.0.25</External_Dependencies>
       <External_Dependencies>labview_open_source_project_lib_mqtt_control_packets &gt;= 3.1.3.9</External_Dependencies>
+      <Additional_External_Dependencies>labview_open_source_project_lib_mqtt_localqueue_connection &gt;=4.0.0.5</Additional_External_Dependencies>
+      <Additional_External_Dependencies>labview_open_source_project_lib_mqtt_tcp_connection &gt;=4.0.0.7</Additional_External_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_data_manipulation-1.5.0.15</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_serializer-1.2.1.16</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_project_lib_connection-1.0.1.6</Direct_Dependencies>
@@ -90,7 +92,9 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>-Updated the code base to common Connection base class
+      <Release_Notes>[Feature: 173] Addition of Get NbConnections accessor method
+
+-Updated the code base to common Connection base class
 -Constructor exposes option to support session storage (defaults to True)
 -Exposed protected methods for inspection of Subscriptions, Sessions and ClientIDs
 </Release_Notes>
@@ -552,7 +556,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>&lt;vi.lib&gt;\LabVIEW Open Source Project\MQTT Connection\MQTT_Base\Base Class\Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D48482395D429D0404C4598800F58F87</GUID>
+      <GUID>142321E26F61E06BBBE08F906EEBC0A5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -783,7 +787,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\Subscription\Write Topic Filter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D201A2F4CB9E569C99E511A76DF91A9</GUID>
+      <GUID>AC44B0A7A976231D83751119E1FB2635</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -916,7 +920,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\TopicFilter\Write Topic Filter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>750381BDBD01B21A12C9D118E514A2F3</GUID>
+      <GUID>C5CFBE0B3FA1B82D0045509D8ABD6CFD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
