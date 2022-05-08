@@ -206,15 +206,6 @@
 				<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 			</Item>
 		</Item>
-		<Item Name="Read Server Private Events.vi" Type="VI" URL="../Read Server Private Events.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*(!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!M'EV26&amp;2@1W^O&gt;(*P&lt;&amp;^197.L:82T,GRW&lt;'FC$V"61ER*5UAO&lt;(:D&lt;'&amp;T=Q!!"UVF=X.B:W5!'E"Q!"E!!1!&amp;$EFO9G^V&lt;G1A5'&amp;D;W6U!!!W1(!!(A!!+"J.56258U.P&lt;H2S&lt;WR@5'&amp;D;W6U=SZM&gt;GRJ9AN"9WMO&lt;(:D&lt;'&amp;T=Q!!!U&amp;D;Q!71(!!'1!"!!=,37ZC&lt;X6O:#""9WM!;Q$R!!!!!!!!!!-246&amp;56#"4:8*W:8)O&lt;(:M;7)/5W6S&gt;G6S,GRW9WRB=X-&gt;5(*J&gt;G&amp;U:3"&amp;&gt;G6O&gt;(-A,3UA9WRV=X2F=CZD&gt;'Q!*%"1!!)!"A!)&amp;6.F=H:F=C"1=GFW982F)%6W:7ZU=Q!Y1(!!(A!!)B&amp;.5625)&amp;.F=H:F=CZM&gt;GRJ9AZ4:8*W:8)O&lt;(:D&lt;'&amp;T=Q!!#F.F=H:F=C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!.E"Q!"Y!!#)246&amp;56#"4:8*W:8)O&lt;(:M;7)/5W6S&gt;G6S,GRW9WRB=X-!!!F4:8*W:8)A;7Y!91$Q!!Q!!Q!%!!E!#A!%!!1!"!!%!!M!"!!%!!Q#!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!$1!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
-		</Item>
 		<Item Name="CONNECT.checkValidID.vi" Type="VI" URL="../CONNECT.checkValidID.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'7!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$E!B#(:B&lt;'FE)%F%!!!31$$`````#7.M;76O&gt;#"*2!!Y1(!!(A!!)B&amp;.5625)&amp;.F=H:F=CZM&gt;GRJ9AZ4:8*W:8)O&lt;(:D&lt;'&amp;T=Q!!#F.F=H:F=C"P&gt;81!!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$Z!=!!?!!!M'EV26&amp;2@1W^O&gt;(*P&lt;&amp;^197.L:82T,GRW&lt;'FC$U.04EZ&amp;1V1O&lt;(:D&lt;'&amp;T=Q!!"U.04EZ&amp;1V1!.E"Q!"Y!!#)246&amp;56#"4:8*W:8)O&lt;(:M;7)/5W6S&gt;G6S,GRW9WRB=X-!!!F4:8*W:8)A;7Y!91$Q!!Q!!Q!%!!5!"A!(!!=!"Q!(!!A!"Q!*!!I$!!"Y!!!.#!!!#1!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!%!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -336,6 +327,16 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107820544</Property>
+		</Item>
+		<Item Name="Read Server Private Events.vi" Type="VI" URL="../Read Server Private Events.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*(!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!M'EV26&amp;2@1W^O&gt;(*P&lt;&amp;^197.L:82T,GRW&lt;'FC$V"61ER*5UAO&lt;(:D&lt;'&amp;T=Q!!"UVF=X.B:W5!'E"Q!"E!!1!&amp;$EFO9G^V&lt;G1A5'&amp;D;W6U!!!W1(!!(A!!+"J.56258U.P&lt;H2S&lt;WR@5'&amp;D;W6U=SZM&gt;GRJ9AN"9WMO&lt;(:D&lt;'&amp;T=Q!!!U&amp;D;Q!71(!!'1!"!!=,37ZC&lt;X6O:#""9WM!;Q$R!!!!!!!!!!-246&amp;56#"4:8*W:8)O&lt;(:M;7)/5W6S&gt;G6S,GRW9WRB=X-&gt;5(*J&gt;G&amp;U:3"&amp;&gt;G6O&gt;(-A,3UA9WRV=X2F=CZD&gt;'Q!*%"1!!)!"A!)&amp;6.F=H:F=C"1=GFW982F)%6W:7ZU=Q!Y1(!!(A!!)B&amp;.5625)&amp;.F=H:F=CZM&gt;GRJ9AZ4:8*W:8)O&lt;(:D&lt;'&amp;T=Q!!#F.F=H:F=C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!.E"Q!"Y!!#)246&amp;56#"4:8*W:8)O&lt;(:M;7)/5W6S&gt;G6S,GRW9WRB=X-!!!F4:8*W:8)A;7Y!91$Q!!Q!!Q!%!!E!#A!%!!1!"!!%!!M!"!!%!!Q#!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!$1!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">8388608</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 	</Item>
 	<Item Name="Create Server.vi" Type="VI" URL="../Create Server.vi">
