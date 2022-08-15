@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-05-08 11:25:52" Creator="normandinf" Comments="" ID="ffe0f0e96ba5b804395e97c6f71acf4e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-08-14 20:32:40" Creator="normandinf" Comments="" ID="492bc1b9aecde1206db0fe8e117bd175">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Broker</Package_File_Name>
-    <Library_Version>4.0.0.16</Library_Version>
+    <Library_Version>4.0.1.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -93,11 +93,9 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
       <Packager/>
       <URL/>
       <Release_Notes>[Feature: 173] Addition of Get NbConnections accessor method
+[Fix: 176] unsubscribe from topic when session has more than one topic now searches and removes correctly the sessions in any order called.
 
--Updated the code base to common Connection base class
--Constructor exposes option to support session storage (defaults to True)
--Exposed protected methods for inspection of Subscriptions, Sessions and ClientIDs
-</Release_Notes>
+Optimized how sessions are discarded in the wake of a Disconnect packet.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -556,7 +554,21 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>&lt;vi.lib&gt;\LabVIEW Open Source Project\MQTT Connection\MQTT_Base\Base Class\Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>142321E26F61E06BBBE08F906EEBC0A5</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Get NbConnections.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>source\Server class\Get NbConnections.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>D909C652DBF386ACFB27D2A859059F97</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -787,7 +799,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\Subscription\Write Topic Filter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AC44B0A7A976231D83751119E1FB2635</GUID>
+      <GUID>C148CAD5B0CB7568891D9A2C5261210C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -920,7 +932,7 @@ A mechanism to notify interested parties when an abnormal disconnection occurs.<
         <Path>source\TopicFilter\Write Topic Filter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C5CFBE0B3FA1B82D0045509D8ABD6CFD</GUID>
+      <GUID>F045A82D844B612B0E4BA7D4FDA99E56</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
