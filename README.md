@@ -2,6 +2,8 @@
 # LV-MQTT-Broker
 Native LabVIEW MQTT Broker Server
 
+[![Image](https://www.vipm.io/package/labview_open_source_project_lib_mqtt_broker/badge.svg?metric=installs)](https://www.vipm.io/package/labview_open_source_project_lib_mqtt_broker/) [![Image](https://www.vipm.io/package/labview_open_source_project_lib_mqtt_broker/badge.svg?metric=stars)](https://www.vipm.io/package/labview_open_source_project_lib_mqtt_broker/)
+
 This project is an exercise in Test-Driven Development, which essentially means that the code is implemented gradually and verified through comprehensive unit tests. At any point in time, the features included in a particular release are fully functional. This also means that all releases have partial functionality. 
 
 For a fully compliant MQTT broker, 141 requirements (as listed in the OASIS specification) need to be satisfied. Those requirements have been added as issues. The list of currently supported features is found by filtering the issues to show only the "closed" issues.
